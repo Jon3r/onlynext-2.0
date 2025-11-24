@@ -25,13 +25,13 @@ export default function About() {
     }, []);
 
 
-    const backgroundImage = useMotionTemplate`radial-gradient(125% 125% at 50% 0%, #020617 50%, ${color})`;
+
     const border = useMotionTemplate`1px solid ${color}`;
     const boxShadow = useMotionTemplate`0px 4px 24px ${color}`;
     return (
 
         <motion.section
-            className="relative grid min-h-screen min-w-screen place-content-center overflow-hidden bg-gray-950 px-4 py-24 text-gray-200"
+            className="relative grid min-h-screen w-full place-content-center overflow-hidden px-4 py-24 text-gray-200"
         >
             <motion.div>
                 <h1>About me</h1>
