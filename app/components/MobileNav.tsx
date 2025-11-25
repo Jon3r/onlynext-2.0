@@ -100,17 +100,6 @@ const HAMBURGER_VARIANTS: Record<string, Variants> = {
 
 export const MobNav = () => {
     const [active, setActive] = useState(false);
-    const color = useMotionValue(COLORS_TOP[0]);
-
-    useEffect(() => {
-        animate(color, COLORS_TOP, {
-            ease: "easeInOut",
-            duration: 10,
-            repeat: Infinity,
-            repeatType: "mirror",
-        });
-    }, []);
-
     return (
         <>
             <HamburgerButton active={active} setActive={setActive} />
@@ -174,7 +163,18 @@ const NavLink = ({
 };
 
 const Logo = () => {
-    // Temp logo from https://logoipsum.com/
+    const color = useMotionValue(COLORS_TOP[0]);
+
+    useEffect(() => {
+        animate(color, COLORS_TOP, {
+            ease: "easeInOut",
+            duration: 10,
+            repeat: Infinity,
+            repeatType: "mirror",
+        });
+    }, []);
+
+    const textColor = useMotionTemplate`${color}`;
     return (
         <motion.a
             initial={{ opacity: 0, y: -12 }}
@@ -185,6 +185,9 @@ const Logo = () => {
             }}
             exit={{ opacity: 0, y: -12 }}
             href="#"
+            style={{
+                color: textColor,
+            }}
             className="grid h-15 w-15 ml-2 mt-2 place-content-center rounded-br-xl rounded-tl-xl bg-white/10 shadow-lg backdrop-blur-sm transition-colors hover:bg-white font-ze-dots"
         >
             OJ
@@ -212,6 +215,8 @@ const HamburgerButton = ({
 
     const border = useMotionTemplate`1px solid ${color}`;
     const boxShadow = useMotionTemplate`0px 4px 24px ${color}`;
+    const textColor = useMotionTemplate`${color}`;
+
     return (
         <>
             <motion.div

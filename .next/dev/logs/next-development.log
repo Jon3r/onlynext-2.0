@@ -1030,3 +1030,174 @@ Import traces:
 [02:31:53.140] Server  LOG      ✓ Compiled in 104ms
 [02:37:48.277] Server  LOG      ✓ Compiled in 124ms
 [02:42:16.305] Server  LOG      ✓ Compiled in 102ms
+[02:43:18.786] Server  LOG      ✓ Compiled in 47ms
+[02:43:59.957] Server  LOG      ✓ Compiled in 48ms
+[02:44:13.366] Browser ERROR   uncaughtError: Error: Invalid argument not valid semver ('' received)
+[02:45:36.101] Server  LOG      ✓ Compiled in 119ms
+[02:45:36.472] Server  ERROR   Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
+[02:45:36.759] Server  ERROR    ⨯ TypeError: Cannot read properties of null (reading 'useRef')
+[02:45:37.971] Browser ERROR   uncaughtError: Error: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
+[02:47:29.676] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:47:29.677] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./Desktop/Web/onlynext-2.0/app/components/MobileNav.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[02:47:29.677] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:47:29.690] Server  LOG      ✓ Compiled in 37ms
+[02:47:30.034] Server  ERROR   Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
+[02:47:30.292] Server  ERROR    ⨯ TypeError: Cannot read properties of null (reading 'useRef')
+[02:47:31.377] Browser ERROR   uncaughtError: Error: Invalid hook call. Hooks can only be called inside of the body of a function component. This could happen for one of the following reasons:
+1. You might have mismatching versions of React and the renderer (such as React DOM)
+2. You might be breaking the Rules of Hooks
+3. You might have more than one copy of React in the same app
+See https://react.dev/link/invalid-hook-call for tips about how to debug and fix this problem.
+[02:48:09.275] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:48:09.275] Server  WARN     ⚠ Fast Refresh had to perform a full reload when ./Desktop/Web/onlynext-2.0/app/components/MobileNav.tsx changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[02:48:09.276] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[02:48:09.296] Server  LOG      ✓ Compiled in 81ms
+[02:48:10.602] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="/Desktop/W...">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html
++                         lang="en"
+-                         lang="en-gb"
+-                         className={" lang-en"}
+-                         data-hubspot-theme="canvas-light"
+                        >
+                          <body
++                           className="zen_dots_68e9b562-module__Tx50mG__variable roboto_7197f6d-module__A0KAba__varia..."
+-                           className="zen_dots_68e9b562-module__Tx50mG__variable roboto_7197f6d-module__A0KAba__varia..."
+                          >
+                  ...
+
+[02:48:11.380] Browser ERROR   uncaughtError: Error: Invalid argument not valid semver ('' received)
+[02:49:03.772] Server  LOG      ✓ Compiled in 144ms
+[02:49:03.864] Browser ERROR   React has detected a change in the order of Hooks called by %s. This will lead to bugs and errors if not fixed. For more information, read the Rules of Hooks: https://react.dev/link/rules-of-hooks
+
+   Previous render            Next render
+   ------------------------------------------------------
+%s   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ HamburgerButton 1. useRef                     useRef
+2. useContext                 useContext
+3. useEffect                  useEffect
+4. useRef                     useRef
+5. useContext                 useContext
+6. useLayoutEffect            useLayoutEffect
+7. useRef                     useRef
+8. useContext                 useContext
+9. useLayoutEffect            useLayoutEffect
+10. undefined                 useRef
+
+[02:49:03.865] Browser ERROR   uncaughtError: Error: Rendered more hooks than during the previous render.
+[02:49:04.372] Browser LOG     THREE.WebGLRenderer: Context Lost.
+[02:49:08.293] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="/Desktop/W...">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html
++                         lang="en"
+-                         lang="en-gb"
+-                         className={" lang-en"}
+                        >
+                  ...
+
+[02:49:09.148] Browser ERROR   uncaughtError: Error: Invalid argument not valid semver ('' received)
+[02:49:23.096] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="/Desktop/W...">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html
++                         lang="en"
+-                         lang="en-gb"
+-                         className={" lang-en"}
+-                         data-hubspot-theme="canvas-light"
+                        >
+                          <body
++                           className="zen_dots_68e9b562-module__Tx50mG__variable roboto_7197f6d-module__A0KAba__varia..."
+-                           className="zen_dots_68e9b562-module__Tx50mG__variable roboto_7197f6d-module__A0KAba__varia..."
+                          >
+                  ...
+
+[02:49:23.251] Browser ERROR   uncaughtError: Error: Invalid argument not valid semver ('' received)
