@@ -11,6 +11,92 @@ import {
 
 const COLORS_TOP = ["#13FFAA", "#1E67C6", "#CE84CF", "#DD335C"];
 
+const LINKS = [
+    {
+        title: "Home",
+        href: "#",
+    },
+    {
+        title: "Services",
+        href: "#",
+    },
+    {
+        title: "About",
+        href: "#",
+    },
+    {
+        title: "Contact",
+        href: "#",
+    },
+];
+
+const SOCIAL_CTAS = [
+    {
+        Component: SiInstagram,
+        href: "#",
+    },
+    {
+        Component: SiLinkedin,
+        href: "#",
+    },
+    {
+        Component: SiYoutube,
+        href: "#",
+    },
+];
+
+const UNDERLAY_VARIANTS = {
+    open: {
+        width: "calc(100% - 32px)",
+        height: "calc(100vh - 32px)",
+        transition: { type: "spring", mass: 3, stiffness: 400, damping: 50 },
+    },
+    closed: {
+        width: "80px",
+        height: "80px",
+        transition: {
+            delay: 0.75,
+            type: "spring",
+            mass: 3,
+            stiffness: 400,
+            damping: 50,
+        },
+    },
+};
+
+const HAMBURGER_VARIANTS = {
+    top: {
+        open: {
+            rotate: ["0deg", "0deg", "45deg"],
+            top: ["35%", "50%", "50%"],
+        },
+        closed: {
+            rotate: ["45deg", "0deg", "0deg"],
+            top: ["50%", "50%", "35%"],
+        },
+    },
+    middle: {
+        open: {
+            rotate: ["0deg", "0deg", "-45deg"],
+        },
+        closed: {
+            rotate: ["-45deg", "0deg", "0deg"],
+        },
+    },
+    bottom: {
+        open: {
+            rotate: ["0deg", "0deg", "45deg"],
+            bottom: ["35%", "50%", "50%"],
+            left: "50%",
+        },
+        closed: {
+            rotate: ["45deg", "0deg", "0deg"],
+            bottom: ["50%", "50%", "35%"],
+            left: "calc(50% + 10px)",
+        },
+    },
+};
+
 export const MobNav = () => {
     const [active, setActive] = useState(false);
     const color = useMotionValue(COLORS_TOP[0]);
@@ -98,25 +184,9 @@ const Logo = () => {
             }}
             exit={{ opacity: 0, y: -12 }}
             href="#"
-            className="grid h-20 w-20 place-content-center rounded-br-xl rounded-tl-xl bg-white transition-colors hover:bg-white"
+            className="grid h-15 w-15 ml-2 mt-2 place-content-center rounded-br-xl rounded-tl-xl bg-white/10 shadow-lg backdrop-blur-sm transition-colors hover:bg-white font-ze-dots"
         >
-            <svg
-                width="50"
-                height="39"
-                viewBox="0 0 50 39"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-                className="fill-violet-600"
-            >
-                <path
-                    d="M16.4992 2H37.5808L22.0816 24.9729H1L16.4992 2Z"
-                    stopColor="#FFFFFF"
-                ></path>
-                <path
-                    d="M17.4224 27.102L11.4192 36H33.5008L49 13.0271H32.7024L23.2064 27.102H17.4224Z"
-                    stopColor="#FFFFFF"
-                ></path>
-            </svg>
+            OJ
         </motion.a>
     );
 };
@@ -223,90 +293,4 @@ const FooterCTAs = () => {
             </motion.button>
         </>
     );
-};
-
-const LINKS = [
-    {
-        title: "Home",
-        href: "#",
-    },
-    {
-        title: "Services",
-        href: "#",
-    },
-    {
-        title: "About",
-        href: "#",
-    },
-    {
-        title: "Contact",
-        href: "#",
-    },
-];
-
-const SOCIAL_CTAS = [
-    {
-        Component: SiInstagram,
-        href: "#",
-    },
-    {
-        Component: SiLinkedin,
-        href: "#",
-    },
-    {
-        Component: SiYoutube,
-        href: "#",
-    },
-];
-
-const UNDERLAY_VARIANTS = {
-    open: {
-        width: "calc(100% - 32px)",
-        height: "calc(100vh - 32px)",
-        transition: { type: "spring", mass: 3, stiffness: 400, damping: 50 },
-    },
-    closed: {
-        width: "80px",
-        height: "80px",
-        transition: {
-            delay: 0.75,
-            type: "spring",
-            mass: 3,
-            stiffness: 400,
-            damping: 50,
-        },
-    },
-};
-
-const HAMBURGER_VARIANTS = {
-    top: {
-        open: {
-            rotate: ["0deg", "0deg", "45deg"],
-            top: ["35%", "50%", "50%"],
-        },
-        closed: {
-            rotate: ["45deg", "0deg", "0deg"],
-            top: ["50%", "50%", "35%"],
-        },
-    },
-    middle: {
-        open: {
-            rotate: ["0deg", "0deg", "-45deg"],
-        },
-        closed: {
-            rotate: ["-45deg", "0deg", "0deg"],
-        },
-    },
-    bottom: {
-        open: {
-            rotate: ["0deg", "0deg", "45deg"],
-            bottom: ["35%", "50%", "50%"],
-            left: "50%",
-        },
-        closed: {
-            rotate: ["45deg", "0deg", "0deg"],
-            bottom: ["50%", "50%", "35%"],
-            left: "calc(50% + 10px)",
-        },
-    },
 };

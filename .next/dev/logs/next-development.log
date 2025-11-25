@@ -914,3 +914,117 @@ It can also happen if the client has a browser extension installed which messes 
 [02:17:05.686] Server  LOG      ✓ Compiled in 43ms
 [02:18:08.707] Server  LOG      ✓ Compiled in 29ms
 [02:18:13.263] Browser ERROR   uncaughtError: Error: Invalid argument not valid semver ('' received)
+[02:25:36.499] Server  LOG      ✓ Compiled in 394ms
+[02:25:36.952] Browser ERROR   ./Desktop/Web/onlynext-2.0/app/components/MobileNav.tsx:367:7
+Ecmascript file had an error
+  365 | };
+  366 |
+> 367 | const HAMBURGER_VARIANTS = {
+      |       ^^^^^^^^^^^^^^^^^^
+  368 |     top: {
+  369 |         open: {
+  370 |             rotate: ["0deg", "0deg", "45deg"],
+
+the name `HAMBURGER_VARIANTS` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Web/onlynext-2.0/app/components/MobileNav.tsx [Client Component Browser]
+    ./Desktop/Web/onlynext-2.0/app/components/Nav.tsx [Client Component Browser]
+    ./Desktop/Web/onlynext-2.0/app/components/Hero.tsx [Client Component Browser]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Client Component Browser]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Web/onlynext-2.0/app/components/MobileNav.tsx [Client Component SSR]
+    ./Desktop/Web/onlynext-2.0/app/components/Nav.tsx [Client Component SSR]
+    ./Desktop/Web/onlynext-2.0/app/components/Hero.tsx [Client Component SSR]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Client Component SSR]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Server Component]
+[02:25:36.952] Browser ERROR   ./Desktop/Web/onlynext-2.0/app/components/MobileNav.tsx:314:7
+Ecmascript file had an error
+  312 | };
+  313 |
+> 314 | const LINKS = [
+      |       ^^^^^
+  315 |     {
+  316 |         title: "Home",
+  317 |         href: "#",
+
+the name `LINKS` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Web/onlynext-2.0/app/components/MobileNav.tsx [Client Component Browser]
+    ./Desktop/Web/onlynext-2.0/app/components/Nav.tsx [Client Component Browser]
+    ./Desktop/Web/onlynext-2.0/app/components/Hero.tsx [Client Component Browser]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Client Component Browser]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Web/onlynext-2.0/app/components/MobileNav.tsx [Client Component SSR]
+    ./Desktop/Web/onlynext-2.0/app/components/Nav.tsx [Client Component SSR]
+    ./Desktop/Web/onlynext-2.0/app/components/Hero.tsx [Client Component SSR]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Client Component SSR]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Server Component]
+[02:25:36.952] Browser ERROR   ./Desktop/Web/onlynext-2.0/app/components/MobileNav.tsx:333:7
+Ecmascript file had an error
+  331 | ];
+  332 |
+> 333 | const SOCIAL_CTAS = [
+      |       ^^^^^^^^^^^
+  334 |     {
+  335 |         Component: SiInstagram,
+  336 |         href: "#",
+
+the name `SOCIAL_CTAS` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Web/onlynext-2.0/app/components/MobileNav.tsx [Client Component Browser]
+    ./Desktop/Web/onlynext-2.0/app/components/Nav.tsx [Client Component Browser]
+    ./Desktop/Web/onlynext-2.0/app/components/Hero.tsx [Client Component Browser]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Client Component Browser]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Web/onlynext-2.0/app/components/MobileNav.tsx [Client Component SSR]
+    ./Desktop/Web/onlynext-2.0/app/components/Nav.tsx [Client Component SSR]
+    ./Desktop/Web/onlynext-2.0/app/components/Hero.tsx [Client Component SSR]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Client Component SSR]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Server Component]
+[02:25:36.952] Browser ERROR   ./Desktop/Web/onlynext-2.0/app/components/MobileNav.tsx:348:7
+Ecmascript file had an error
+  346 | ];
+  347 |
+> 348 | const UNDERLAY_VARIANTS = {
+      |       ^^^^^^^^^^^^^^^^^
+  349 |     open: {
+  350 |         width: "calc(100% - 32px)",
+  351 |         height: "calc(100vh - 32px)",
+
+the name `UNDERLAY_VARIANTS` is defined multiple times
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Web/onlynext-2.0/app/components/MobileNav.tsx [Client Component Browser]
+    ./Desktop/Web/onlynext-2.0/app/components/Nav.tsx [Client Component Browser]
+    ./Desktop/Web/onlynext-2.0/app/components/Hero.tsx [Client Component Browser]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Client Component Browser]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Web/onlynext-2.0/app/components/MobileNav.tsx [Client Component SSR]
+    ./Desktop/Web/onlynext-2.0/app/components/Nav.tsx [Client Component SSR]
+    ./Desktop/Web/onlynext-2.0/app/components/Hero.tsx [Client Component SSR]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Client Component SSR]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Server Component]
+[02:25:52.752] Server  LOG      ✓ Compiled in 42ms
+[02:26:29.126] Browser ERROR   uncaughtError: Error: Invalid argument not valid semver ('' received)
+[02:27:39.961] Server  LOG      ✓ Compiled in 151ms
+[02:30:08.746] Server  LOG      ✓ Compiled in 77ms
+[02:30:30.625] Server  LOG      ✓ Compiled in 87ms
+[02:31:09.850] Server  LOG      ✓ Compiled in 126ms
+[02:31:26.636] Server  LOG      ✓ Compiled in 98ms
+[02:31:45.129] Server  LOG      ✓ Compiled in 53ms
+[02:31:53.140] Server  LOG      ✓ Compiled in 104ms

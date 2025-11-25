@@ -27,369 +27,6 @@ const COLORS_TOP = [
     "#CE84CF",
     "#DD335C"
 ];
-const MobNav = ()=>{
-    _s();
-    const [active, setActive] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Web$2f$onlynext$2d$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
-    const color = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Web$2f$onlynext$2d$2$2e$0$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$value$2f$use$2d$motion$2d$value$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useMotionValue"])(COLORS_TOP[0]);
-    (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Web$2f$onlynext$2d$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
-        "MobNav.useEffect": ()=>{
-            (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Web$2f$onlynext$2d$2$2e$0$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$animation$2f$animate$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["animate"])(color, COLORS_TOP, {
-                ease: "easeInOut",
-                duration: 10,
-                repeat: Infinity,
-                repeatType: "mirror"
-            });
-        }
-    }["MobNav.useEffect"], []);
-    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Web$2f$onlynext$2d$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Web$2f$onlynext$2d$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
-        children: [
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Web$2f$onlynext$2d$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(HamburgerButton, {
-                active: active,
-                setActive: setActive
-            }, void 0, false, {
-                fileName: "[project]/Desktop/Web/onlynext-2.0/app/components/MobileNav.tsx",
-                lineNumber: 29,
-                columnNumber: 13
-            }, ("TURBOPACK compile-time value", void 0)),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Web$2f$onlynext$2d$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Web$2f$onlynext$2d$2$2e$0$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$components$2f$AnimatePresence$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["AnimatePresence"], {
-                children: active && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Web$2f$onlynext$2d$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(LinksOverlay, {}, void 0, false, {
-                    fileName: "[project]/Desktop/Web/onlynext-2.0/app/components/MobileNav.tsx",
-                    lineNumber: 30,
-                    columnNumber: 41
-                }, ("TURBOPACK compile-time value", void 0))
-            }, void 0, false, {
-                fileName: "[project]/Desktop/Web/onlynext-2.0/app/components/MobileNav.tsx",
-                lineNumber: 30,
-                columnNumber: 13
-            }, ("TURBOPACK compile-time value", void 0))
-        ]
-    }, void 0, true);
-};
-_s(MobNav, "ePrRhWI+oCO5bChBCKVGbI4oxvU=", false, function() {
-    return [
-        __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Web$2f$onlynext$2d$2$2e$0$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$value$2f$use$2d$motion$2d$value$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useMotionValue"]
-    ];
-});
-_c = MobNav;
-const LinksOverlay = ()=>{
-    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Web$2f$onlynext$2d$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
-        className: "fixed right-4 top-4 z-40 h-[calc(100vh_-_32px)] w-[calc(100%_-_32px)] overflow-hidden",
-        children: [
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Web$2f$onlynext$2d$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(Logo, {}, void 0, false, {
-                fileName: "[project]/Desktop/Web/onlynext-2.0/app/components/MobileNav.tsx",
-                lineNumber: 38,
-                columnNumber: 13
-            }, ("TURBOPACK compile-time value", void 0)),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Web$2f$onlynext$2d$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(LinksContainer, {}, void 0, false, {
-                fileName: "[project]/Desktop/Web/onlynext-2.0/app/components/MobileNav.tsx",
-                lineNumber: 39,
-                columnNumber: 13
-            }, ("TURBOPACK compile-time value", void 0)),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Web$2f$onlynext$2d$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(FooterCTAs, {}, void 0, false, {
-                fileName: "[project]/Desktop/Web/onlynext-2.0/app/components/MobileNav.tsx",
-                lineNumber: 40,
-                columnNumber: 13
-            }, ("TURBOPACK compile-time value", void 0))
-        ]
-    }, void 0, true, {
-        fileName: "[project]/Desktop/Web/onlynext-2.0/app/components/MobileNav.tsx",
-        lineNumber: 37,
-        columnNumber: 9
-    }, ("TURBOPACK compile-time value", void 0));
-};
-_c1 = LinksOverlay;
-const LinksContainer = ()=>{
-    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Web$2f$onlynext$2d$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Web$2f$onlynext$2d$2$2e$0$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
-        className: "space-y-4 p-12 pl-4 md:pl-20",
-        children: LINKS.map((l, idx)=>{
-            return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Web$2f$onlynext$2d$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(NavLink, {
-                href: l.href,
-                idx: idx,
-                children: l.title
-            }, l.title, false, {
-                fileName: "[project]/Desktop/Web/onlynext-2.0/app/components/MobileNav.tsx",
-                lineNumber: 50,
-                columnNumber: 21
-            }, ("TURBOPACK compile-time value", void 0));
-        })
-    }, void 0, false, {
-        fileName: "[project]/Desktop/Web/onlynext-2.0/app/components/MobileNav.tsx",
-        lineNumber: 47,
-        columnNumber: 9
-    }, ("TURBOPACK compile-time value", void 0));
-};
-_c2 = LinksContainer;
-const NavLink = ({ children, href, idx })=>{
-    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Web$2f$onlynext$2d$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Web$2f$onlynext$2d$2$2e$0$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].a, {
-        initial: {
-            opacity: 0,
-            y: -8
-        },
-        animate: {
-            opacity: 1,
-            y: 0,
-            transition: {
-                delay: 0.75 + idx * 0.125,
-                duration: 0.5,
-                ease: "easeInOut"
-            }
-        },
-        exit: {
-            opacity: 0,
-            y: -8
-        },
-        href: href,
-        className: "font-ze-dots block text-5xl font-semibold text-white transition-colors hover:text-white md:text-7xl",
-        children: [
-            children,
-            "."
-        ]
-    }, void 0, true, {
-        fileName: "[project]/Desktop/Web/onlynext-2.0/app/components/MobileNav.tsx",
-        lineNumber: 69,
-        columnNumber: 9
-    }, ("TURBOPACK compile-time value", void 0));
-};
-_c3 = NavLink;
-const Logo = ()=>{
-    // Temp logo from https://logoipsum.com/
-    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Web$2f$onlynext$2d$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Web$2f$onlynext$2d$2$2e$0$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].a, {
-        initial: {
-            opacity: 0,
-            y: -12
-        },
-        animate: {
-            opacity: 1,
-            y: 0,
-            transition: {
-                delay: 0.5,
-                duration: 0.5,
-                ease: "easeInOut"
-            }
-        },
-        exit: {
-            opacity: 0,
-            y: -12
-        },
-        href: "#",
-        className: "grid h-20 w-20 place-content-center rounded-br-xl rounded-tl-xl bg-white transition-colors hover:bg-white",
-        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Web$2f$onlynext$2d$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
-            width: "50",
-            height: "39",
-            viewBox: "0 0 50 39",
-            fill: "none",
-            xmlns: "http://www.w3.org/2000/svg",
-            className: "fill-violet-600",
-            children: [
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Web$2f$onlynext$2d$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
-                    d: "M16.4992 2H37.5808L22.0816 24.9729H1L16.4992 2Z",
-                    stopColor: "#FFFFFF"
-                }, void 0, false, {
-                    fileName: "[project]/Desktop/Web/onlynext-2.0/app/components/MobileNav.tsx",
-                    lineNumber: 111,
-                    columnNumber: 17
-                }, ("TURBOPACK compile-time value", void 0)),
-                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Web$2f$onlynext$2d$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
-                    d: "M17.4224 27.102L11.4192 36H33.5008L49 13.0271H32.7024L23.2064 27.102H17.4224Z",
-                    stopColor: "#FFFFFF"
-                }, void 0, false, {
-                    fileName: "[project]/Desktop/Web/onlynext-2.0/app/components/MobileNav.tsx",
-                    lineNumber: 115,
-                    columnNumber: 17
-                }, ("TURBOPACK compile-time value", void 0))
-            ]
-        }, void 0, true, {
-            fileName: "[project]/Desktop/Web/onlynext-2.0/app/components/MobileNav.tsx",
-            lineNumber: 103,
-            columnNumber: 13
-        }, ("TURBOPACK compile-time value", void 0))
-    }, void 0, false, {
-        fileName: "[project]/Desktop/Web/onlynext-2.0/app/components/MobileNav.tsx",
-        lineNumber: 92,
-        columnNumber: 9
-    }, ("TURBOPACK compile-time value", void 0));
-};
-_c4 = Logo;
-const HamburgerButton = ({ active, setActive })=>{
-    _s1();
-    const color = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Web$2f$onlynext$2d$2$2e$0$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$value$2f$use$2d$motion$2d$value$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useMotionValue"])(COLORS_TOP[0]);
-    (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Web$2f$onlynext$2d$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
-        "HamburgerButton.useEffect": ()=>{
-            (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Web$2f$onlynext$2d$2$2e$0$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$animation$2f$animate$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["animate"])(color, COLORS_TOP, {
-                ease: "easeInOut",
-                duration: 10,
-                repeat: Infinity,
-                repeatType: "mirror"
-            });
-        }
-    }["HamburgerButton.useEffect"], []);
-    const border = __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Web$2f$onlynext$2d$2$2e$0$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$value$2f$use$2d$motion$2d$template$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useMotionTemplate"]`1px solid ${color}`;
-    const boxShadow = __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Web$2f$onlynext$2d$2$2e$0$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$value$2f$use$2d$motion$2d$template$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useMotionTemplate"]`0px 4px 24px ${color}`;
-    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Web$2f$onlynext$2d$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Web$2f$onlynext$2d$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
-        children: [
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Web$2f$onlynext$2d$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Web$2f$onlynext$2d$2$2e$0$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
-                initial: false,
-                animate: active ? "open" : "closed",
-                variants: UNDERLAY_VARIANTS,
-                style: {
-                    top: 16,
-                    right: 16,
-                    border,
-                    boxShadow
-                },
-                className: "fixed z-10 rounded-xl bg-white/10 shadow-lg backdrop-blur-sm font-ze-dots md:hidden lg:hidden"
-            }, void 0, false, {
-                fileName: "[project]/Desktop/Web/onlynext-2.0/app/components/MobileNav.tsx",
-                lineNumber: 146,
-                columnNumber: 13
-            }, ("TURBOPACK compile-time value", void 0)),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Web$2f$onlynext$2d$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Web$2f$onlynext$2d$2$2e$0$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].button, {
-                initial: false,
-                animate: active ? "open" : "closed",
-                onClick: ()=>setActive((pv)=>!pv),
-                className: `group fixed right-4 top-4 z-50 h-20 w-20 md:hidden lg:hidden bg-white/0 transition-all hover:bg-white/20 ${active ? "rounded-bl-xl rounded-tr-xl" : "rounded-xl"}`,
-                children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Web$2f$onlynext$2d$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Web$2f$onlynext$2d$2$2e$0$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].span, {
-                        variants: HAMBURGER_VARIANTS.top,
-                        className: "absolute block h-1 w-10 bg-white",
-                        style: {
-                            y: "-50%",
-                            left: "50%",
-                            x: "-50%"
-                        }
-                    }, void 0, false, {
-                        fileName: "[project]/Desktop/Web/onlynext-2.0/app/components/MobileNav.tsx",
-                        lineNumber: 161,
-                        columnNumber: 17
-                    }, ("TURBOPACK compile-time value", void 0)),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Web$2f$onlynext$2d$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Web$2f$onlynext$2d$2$2e$0$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].span, {
-                        variants: HAMBURGER_VARIANTS.middle,
-                        className: "absolute block h-1 w-10 bg-white",
-                        style: {
-                            left: "50%",
-                            x: "-50%",
-                            top: "50%",
-                            y: "-50%"
-                        }
-                    }, void 0, false, {
-                        fileName: "[project]/Desktop/Web/onlynext-2.0/app/components/MobileNav.tsx",
-                        lineNumber: 166,
-                        columnNumber: 17
-                    }, ("TURBOPACK compile-time value", void 0)),
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Web$2f$onlynext$2d$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Web$2f$onlynext$2d$2$2e$0$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].span, {
-                        variants: HAMBURGER_VARIANTS.bottom,
-                        className: "absolute block h-1 w-5 bg-white",
-                        style: {
-                            x: "-50%",
-                            y: "50%"
-                        }
-                    }, void 0, false, {
-                        fileName: "[project]/Desktop/Web/onlynext-2.0/app/components/MobileNav.tsx",
-                        lineNumber: 171,
-                        columnNumber: 17
-                    }, ("TURBOPACK compile-time value", void 0))
-                ]
-            }, void 0, true, {
-                fileName: "[project]/Desktop/Web/onlynext-2.0/app/components/MobileNav.tsx",
-                lineNumber: 154,
-                columnNumber: 13
-            }, ("TURBOPACK compile-time value", void 0))
-        ]
-    }, void 0, true);
-};
-_s1(HamburgerButton, "c9K9Wnq/6MWuFvP43edGVCety3A=", false, function() {
-    return [
-        __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Web$2f$onlynext$2d$2$2e$0$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$value$2f$use$2d$motion$2d$value$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useMotionValue"]
-    ];
-});
-_c5 = HamburgerButton;
-const FooterCTAs = ()=>{
-    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Web$2f$onlynext$2d$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Web$2f$onlynext$2d$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
-        children: [
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Web$2f$onlynext$2d$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                className: "absolute bottom-6 left-6 flex gap-4 md:flex-col",
-                children: SOCIAL_CTAS.map((l, idx)=>{
-                    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Web$2f$onlynext$2d$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Web$2f$onlynext$2d$2$2e$0$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].a, {
-                        href: l.href,
-                        initial: {
-                            opacity: 0,
-                            y: -8
-                        },
-                        animate: {
-                            opacity: 1,
-                            y: 0,
-                            transition: {
-                                delay: 1 + idx * 0.125,
-                                duration: 0.5,
-                                ease: "easeInOut"
-                            }
-                        },
-                        exit: {
-                            opacity: 0,
-                            y: -8
-                        },
-                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Web$2f$onlynext$2d$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(l.Component, {
-                            className: "text-xl text-white transition-colors hover:text-violet-300"
-                        }, void 0, false, {
-                            fileName: "[project]/Desktop/Web/onlynext-2.0/app/components/MobileNav.tsx",
-                            lineNumber: 202,
-                            columnNumber: 29
-                        }, ("TURBOPACK compile-time value", void 0))
-                    }, idx, false, {
-                        fileName: "[project]/Desktop/Web/onlynext-2.0/app/components/MobileNav.tsx",
-                        lineNumber: 187,
-                        columnNumber: 25
-                    }, ("TURBOPACK compile-time value", void 0));
-                })
-            }, void 0, false, {
-                fileName: "[project]/Desktop/Web/onlynext-2.0/app/components/MobileNav.tsx",
-                lineNumber: 184,
-                columnNumber: 13
-            }, ("TURBOPACK compile-time value", void 0)),
-            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Web$2f$onlynext$2d$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Web$2f$onlynext$2d$2$2e$0$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].button, {
-                initial: {
-                    opacity: 0,
-                    y: 8
-                },
-                animate: {
-                    opacity: 1,
-                    y: 0,
-                    transition: {
-                        delay: 1.125,
-                        duration: 0.5,
-                        ease: "easeInOut"
-                    }
-                },
-                exit: {
-                    opacity: 0,
-                    y: 8
-                },
-                className: "absolute bottom-2 right-2 flex items-center gap-2 rounded-full bg-white/10 shadow-lg backdrop-blur-sm px-3 py-3 text-4xl uppercase text-white transition-colors hover:bg-white hover:text-white md:bottom-4 md:right-4 md:px-6 md:text-2xl",
-                children: [
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Web$2f$onlynext$2d$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                        className: "hidden md:block",
-                        children: "contact us"
-                    }, void 0, false, {
-                        fileName: "[project]/Desktop/Web/onlynext-2.0/app/components/MobileNav.tsx",
-                        lineNumber: 222,
-                        columnNumber: 17
-                    }, ("TURBOPACK compile-time value", void 0)),
-                    " ",
-                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Web$2f$onlynext$2d$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Web$2f$onlynext$2d$2$2e$0$2f$node_modules$2f$react$2d$icons$2f$fi$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FiArrowRight"], {}, void 0, false, {
-                        fileName: "[project]/Desktop/Web/onlynext-2.0/app/components/MobileNav.tsx",
-                        lineNumber: 222,
-                        columnNumber: 69
-                    }, ("TURBOPACK compile-time value", void 0))
-                ]
-            }, void 0, true, {
-                fileName: "[project]/Desktop/Web/onlynext-2.0/app/components/MobileNav.tsx",
-                lineNumber: 208,
-                columnNumber: 13
-            }, ("TURBOPACK compile-time value", void 0))
-        ]
-    }, void 0, true);
-};
-_c6 = FooterCTAs;
 const LINKS = [
     {
         title: "Home",
@@ -517,6 +154,340 @@ const HAMBURGER_VARIANTS = {
         }
     }
 };
+const MobNav = ()=>{
+    _s();
+    const [active, setActive] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Web$2f$onlynext$2d$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(false);
+    const color = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Web$2f$onlynext$2d$2$2e$0$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$value$2f$use$2d$motion$2d$value$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useMotionValue"])(COLORS_TOP[0]);
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Web$2f$onlynext$2d$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
+        "MobNav.useEffect": ()=>{
+            (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Web$2f$onlynext$2d$2$2e$0$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$animation$2f$animate$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["animate"])(color, COLORS_TOP, {
+                ease: "easeInOut",
+                duration: 10,
+                repeat: Infinity,
+                repeatType: "mirror"
+            });
+        }
+    }["MobNav.useEffect"], []);
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Web$2f$onlynext$2d$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Web$2f$onlynext$2d$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Web$2f$onlynext$2d$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(HamburgerButton, {
+                active: active,
+                setActive: setActive
+            }, void 0, false, {
+                fileName: "[project]/Desktop/Web/onlynext-2.0/app/components/MobileNav.tsx",
+                lineNumber: 115,
+                columnNumber: 13
+            }, ("TURBOPACK compile-time value", void 0)),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Web$2f$onlynext$2d$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Web$2f$onlynext$2d$2$2e$0$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$components$2f$AnimatePresence$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["AnimatePresence"], {
+                children: active && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Web$2f$onlynext$2d$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(LinksOverlay, {}, void 0, false, {
+                    fileName: "[project]/Desktop/Web/onlynext-2.0/app/components/MobileNav.tsx",
+                    lineNumber: 116,
+                    columnNumber: 41
+                }, ("TURBOPACK compile-time value", void 0))
+            }, void 0, false, {
+                fileName: "[project]/Desktop/Web/onlynext-2.0/app/components/MobileNav.tsx",
+                lineNumber: 116,
+                columnNumber: 13
+            }, ("TURBOPACK compile-time value", void 0))
+        ]
+    }, void 0, true);
+};
+_s(MobNav, "ePrRhWI+oCO5bChBCKVGbI4oxvU=", false, function() {
+    return [
+        __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Web$2f$onlynext$2d$2$2e$0$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$value$2f$use$2d$motion$2d$value$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useMotionValue"]
+    ];
+});
+_c = MobNav;
+const LinksOverlay = ()=>{
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Web$2f$onlynext$2d$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
+        className: "fixed right-4 top-4 z-40 h-[calc(100vh_-_32px)] w-[calc(100%_-_32px)] overflow-hidden",
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Web$2f$onlynext$2d$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(Logo, {}, void 0, false, {
+                fileName: "[project]/Desktop/Web/onlynext-2.0/app/components/MobileNav.tsx",
+                lineNumber: 124,
+                columnNumber: 13
+            }, ("TURBOPACK compile-time value", void 0)),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Web$2f$onlynext$2d$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(LinksContainer, {}, void 0, false, {
+                fileName: "[project]/Desktop/Web/onlynext-2.0/app/components/MobileNav.tsx",
+                lineNumber: 125,
+                columnNumber: 13
+            }, ("TURBOPACK compile-time value", void 0)),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Web$2f$onlynext$2d$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(FooterCTAs, {}, void 0, false, {
+                fileName: "[project]/Desktop/Web/onlynext-2.0/app/components/MobileNav.tsx",
+                lineNumber: 126,
+                columnNumber: 13
+            }, ("TURBOPACK compile-time value", void 0))
+        ]
+    }, void 0, true, {
+        fileName: "[project]/Desktop/Web/onlynext-2.0/app/components/MobileNav.tsx",
+        lineNumber: 123,
+        columnNumber: 9
+    }, ("TURBOPACK compile-time value", void 0));
+};
+_c1 = LinksOverlay;
+const LinksContainer = ()=>{
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Web$2f$onlynext$2d$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Web$2f$onlynext$2d$2$2e$0$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
+        className: "space-y-4 p-12 pl-4 md:pl-20",
+        children: LINKS.map((l, idx)=>{
+            return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Web$2f$onlynext$2d$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(NavLink, {
+                href: l.href,
+                idx: idx,
+                children: l.title
+            }, l.title, false, {
+                fileName: "[project]/Desktop/Web/onlynext-2.0/app/components/MobileNav.tsx",
+                lineNumber: 136,
+                columnNumber: 21
+            }, ("TURBOPACK compile-time value", void 0));
+        })
+    }, void 0, false, {
+        fileName: "[project]/Desktop/Web/onlynext-2.0/app/components/MobileNav.tsx",
+        lineNumber: 133,
+        columnNumber: 9
+    }, ("TURBOPACK compile-time value", void 0));
+};
+_c2 = LinksContainer;
+const NavLink = ({ children, href, idx })=>{
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Web$2f$onlynext$2d$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Web$2f$onlynext$2d$2$2e$0$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].a, {
+        initial: {
+            opacity: 0,
+            y: -8
+        },
+        animate: {
+            opacity: 1,
+            y: 0,
+            transition: {
+                delay: 0.75 + idx * 0.125,
+                duration: 0.5,
+                ease: "easeInOut"
+            }
+        },
+        exit: {
+            opacity: 0,
+            y: -8
+        },
+        href: href,
+        className: "font-ze-dots block text-5xl font-semibold text-white transition-colors hover:text-white md:text-7xl",
+        children: [
+            children,
+            "."
+        ]
+    }, void 0, true, {
+        fileName: "[project]/Desktop/Web/onlynext-2.0/app/components/MobileNav.tsx",
+        lineNumber: 155,
+        columnNumber: 9
+    }, ("TURBOPACK compile-time value", void 0));
+};
+_c3 = NavLink;
+const Logo = ()=>{
+    // Temp logo from https://logoipsum.com/
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Web$2f$onlynext$2d$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Web$2f$onlynext$2d$2$2e$0$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].a, {
+        initial: {
+            opacity: 0,
+            y: -12
+        },
+        animate: {
+            opacity: 1,
+            y: 0,
+            transition: {
+                delay: 0.5,
+                duration: 0.5,
+                ease: "easeInOut"
+            }
+        },
+        exit: {
+            opacity: 0,
+            y: -12
+        },
+        href: "#",
+        className: "grid h-15 w-15 ml-2 mt-2 place-content-center rounded-br-xl rounded-tl-xl bg-white/10 shadow-lg backdrop-blur-sm transition-colors hover:bg-white font-ze-dots",
+        children: "OJ"
+    }, void 0, false, {
+        fileName: "[project]/Desktop/Web/onlynext-2.0/app/components/MobileNav.tsx",
+        lineNumber: 178,
+        columnNumber: 9
+    }, ("TURBOPACK compile-time value", void 0));
+};
+_c4 = Logo;
+const HamburgerButton = ({ active, setActive })=>{
+    _s1();
+    const color = (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Web$2f$onlynext$2d$2$2e$0$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$value$2f$use$2d$motion$2d$value$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useMotionValue"])(COLORS_TOP[0]);
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Web$2f$onlynext$2d$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
+        "HamburgerButton.useEffect": ()=>{
+            (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Web$2f$onlynext$2d$2$2e$0$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$animation$2f$animate$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["animate"])(color, COLORS_TOP, {
+                ease: "easeInOut",
+                duration: 10,
+                repeat: Infinity,
+                repeatType: "mirror"
+            });
+        }
+    }["HamburgerButton.useEffect"], []);
+    const border = __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Web$2f$onlynext$2d$2$2e$0$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$value$2f$use$2d$motion$2d$template$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useMotionTemplate"]`1px solid ${color}`;
+    const boxShadow = __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Web$2f$onlynext$2d$2$2e$0$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$value$2f$use$2d$motion$2d$template$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useMotionTemplate"]`0px 4px 24px ${color}`;
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Web$2f$onlynext$2d$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Web$2f$onlynext$2d$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Web$2f$onlynext$2d$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Web$2f$onlynext$2d$2$2e$0$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].div, {
+                initial: false,
+                animate: active ? "open" : "closed",
+                variants: UNDERLAY_VARIANTS,
+                style: {
+                    top: 16,
+                    right: 16,
+                    border,
+                    boxShadow
+                },
+                className: "fixed z-10 rounded-xl bg-white/10 shadow-lg backdrop-blur-sm font-ze-dots md:hidden lg:hidden"
+            }, void 0, false, {
+                fileName: "[project]/Desktop/Web/onlynext-2.0/app/components/MobileNav.tsx",
+                lineNumber: 216,
+                columnNumber: 13
+            }, ("TURBOPACK compile-time value", void 0)),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Web$2f$onlynext$2d$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Web$2f$onlynext$2d$2$2e$0$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].button, {
+                initial: false,
+                animate: active ? "open" : "closed",
+                onClick: ()=>setActive((pv)=>!pv),
+                className: `group fixed right-4 top-4 z-50 h-20 w-20 md:hidden lg:hidden bg-white/0 transition-all hover:bg-white/20 ${active ? "rounded-bl-xl rounded-tr-xl" : "rounded-xl"}`,
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Web$2f$onlynext$2d$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Web$2f$onlynext$2d$2$2e$0$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].span, {
+                        variants: HAMBURGER_VARIANTS.top,
+                        className: "absolute block h-1 w-10 bg-white",
+                        style: {
+                            y: "-50%",
+                            left: "50%",
+                            x: "-50%"
+                        }
+                    }, void 0, false, {
+                        fileName: "[project]/Desktop/Web/onlynext-2.0/app/components/MobileNav.tsx",
+                        lineNumber: 231,
+                        columnNumber: 17
+                    }, ("TURBOPACK compile-time value", void 0)),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Web$2f$onlynext$2d$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Web$2f$onlynext$2d$2$2e$0$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].span, {
+                        variants: HAMBURGER_VARIANTS.middle,
+                        className: "absolute block h-1 w-10 bg-white",
+                        style: {
+                            left: "50%",
+                            x: "-50%",
+                            top: "50%",
+                            y: "-50%"
+                        }
+                    }, void 0, false, {
+                        fileName: "[project]/Desktop/Web/onlynext-2.0/app/components/MobileNav.tsx",
+                        lineNumber: 236,
+                        columnNumber: 17
+                    }, ("TURBOPACK compile-time value", void 0)),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Web$2f$onlynext$2d$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Web$2f$onlynext$2d$2$2e$0$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].span, {
+                        variants: HAMBURGER_VARIANTS.bottom,
+                        className: "absolute block h-1 w-5 bg-white",
+                        style: {
+                            x: "-50%",
+                            y: "50%"
+                        }
+                    }, void 0, false, {
+                        fileName: "[project]/Desktop/Web/onlynext-2.0/app/components/MobileNav.tsx",
+                        lineNumber: 241,
+                        columnNumber: 17
+                    }, ("TURBOPACK compile-time value", void 0))
+                ]
+            }, void 0, true, {
+                fileName: "[project]/Desktop/Web/onlynext-2.0/app/components/MobileNav.tsx",
+                lineNumber: 224,
+                columnNumber: 13
+            }, ("TURBOPACK compile-time value", void 0))
+        ]
+    }, void 0, true);
+};
+_s1(HamburgerButton, "c9K9Wnq/6MWuFvP43edGVCety3A=", false, function() {
+    return [
+        __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Web$2f$onlynext$2d$2$2e$0$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$value$2f$use$2d$motion$2d$value$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useMotionValue"]
+    ];
+});
+_c5 = HamburgerButton;
+const FooterCTAs = ()=>{
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Web$2f$onlynext$2d$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Web$2f$onlynext$2d$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
+        children: [
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Web$2f$onlynext$2d$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                className: "absolute bottom-6 left-6 flex gap-4 md:flex-col",
+                children: SOCIAL_CTAS.map((l, idx)=>{
+                    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Web$2f$onlynext$2d$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Web$2f$onlynext$2d$2$2e$0$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].a, {
+                        href: l.href,
+                        initial: {
+                            opacity: 0,
+                            y: -8
+                        },
+                        animate: {
+                            opacity: 1,
+                            y: 0,
+                            transition: {
+                                delay: 1 + idx * 0.125,
+                                duration: 0.5,
+                                ease: "easeInOut"
+                            }
+                        },
+                        exit: {
+                            opacity: 0,
+                            y: -8
+                        },
+                        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Web$2f$onlynext$2d$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(l.Component, {
+                            className: "text-xl text-white transition-colors hover:text-violet-300"
+                        }, void 0, false, {
+                            fileName: "[project]/Desktop/Web/onlynext-2.0/app/components/MobileNav.tsx",
+                            lineNumber: 272,
+                            columnNumber: 29
+                        }, ("TURBOPACK compile-time value", void 0))
+                    }, idx, false, {
+                        fileName: "[project]/Desktop/Web/onlynext-2.0/app/components/MobileNav.tsx",
+                        lineNumber: 257,
+                        columnNumber: 25
+                    }, ("TURBOPACK compile-time value", void 0));
+                })
+            }, void 0, false, {
+                fileName: "[project]/Desktop/Web/onlynext-2.0/app/components/MobileNav.tsx",
+                lineNumber: 254,
+                columnNumber: 13
+            }, ("TURBOPACK compile-time value", void 0)),
+            /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Web$2f$onlynext$2d$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Web$2f$onlynext$2d$2$2e$0$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].button, {
+                initial: {
+                    opacity: 0,
+                    y: 8
+                },
+                animate: {
+                    opacity: 1,
+                    y: 0,
+                    transition: {
+                        delay: 1.125,
+                        duration: 0.5,
+                        ease: "easeInOut"
+                    }
+                },
+                exit: {
+                    opacity: 0,
+                    y: 8
+                },
+                className: "absolute bottom-2 right-2 flex items-center gap-2 rounded-full bg-white/10 shadow-lg backdrop-blur-sm px-3 py-3 text-4xl uppercase text-white transition-colors hover:bg-white hover:text-white md:bottom-4 md:right-4 md:px-6 md:text-2xl",
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Web$2f$onlynext$2d$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                        className: "hidden md:block",
+                        children: "contact us"
+                    }, void 0, false, {
+                        fileName: "[project]/Desktop/Web/onlynext-2.0/app/components/MobileNav.tsx",
+                        lineNumber: 292,
+                        columnNumber: 17
+                    }, ("TURBOPACK compile-time value", void 0)),
+                    " ",
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Web$2f$onlynext$2d$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Web$2f$onlynext$2d$2$2e$0$2f$node_modules$2f$react$2d$icons$2f$fi$2f$index$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["FiArrowRight"], {}, void 0, false, {
+                        fileName: "[project]/Desktop/Web/onlynext-2.0/app/components/MobileNav.tsx",
+                        lineNumber: 292,
+                        columnNumber: 69
+                    }, ("TURBOPACK compile-time value", void 0))
+                ]
+            }, void 0, true, {
+                fileName: "[project]/Desktop/Web/onlynext-2.0/app/components/MobileNav.tsx",
+                lineNumber: 278,
+                columnNumber: 13
+            }, ("TURBOPACK compile-time value", void 0))
+        ]
+    }, void 0, true);
+};
+_c6 = FooterCTAs;
 var _c, _c1, _c2, _c3, _c4, _c5, _c6;
 __turbopack_context__.k.register(_c, "MobNav");
 __turbopack_context__.k.register(_c1, "LinksOverlay");
