@@ -272,7 +272,8 @@ const Logo = ()=>{
             repeatType: "mirror"
         });
     }, []);
-    const textColor = __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Web$2f$onlynext$2d$2$2e$0$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$value$2f$use$2d$motion$2d$template$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useMotionTemplate"]`${color}`;
+    const border = __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Web$2f$onlynext$2d$2$2e$0$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$value$2f$use$2d$motion$2d$template$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useMotionTemplate"]`1px solid ${color}`;
+    const boxShadow = __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Web$2f$onlynext$2d$2$2e$0$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$value$2f$use$2d$motion$2d$template$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useMotionTemplate"]`0px 4px 24px ${color}`;
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Web$2f$onlynext$2d$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Web$2f$onlynext$2d$2$2e$0$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].a, {
         initial: {
             opacity: 0,
@@ -293,13 +294,14 @@ const Logo = ()=>{
         },
         href: "#",
         style: {
-            color: textColor
+            border,
+            boxShadow
         },
         className: "grid h-15 w-15 ml-2 mt-2 place-content-center rounded-br-xl rounded-tl-xl bg-white/10 shadow-lg backdrop-blur-sm transition-colors hover:bg-white font-ze-dots",
         children: "OJ"
     }, void 0, false, {
         fileName: "[project]/Desktop/Web/onlynext-2.0/app/components/MobileNav.tsx",
-        lineNumber: 179,
+        lineNumber: 180,
         columnNumber: 9
     }, ("TURBOPACK compile-time value", void 0));
 };
@@ -331,7 +333,7 @@ const HamburgerButton = ({ active, setActive })=>{
                 className: "fixed z-10 rounded-xl bg-white/10 shadow-lg backdrop-blur-sm font-ze-dots md:hidden lg:hidden"
             }, void 0, false, {
                 fileName: "[project]/Desktop/Web/onlynext-2.0/app/components/MobileNav.tsx",
-                lineNumber: 222,
+                lineNumber: 224,
                 columnNumber: 13
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Web$2f$onlynext$2d$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Web$2f$onlynext$2d$2$2e$0$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].button, {
@@ -350,7 +352,7 @@ const HamburgerButton = ({ active, setActive })=>{
                         }
                     }, void 0, false, {
                         fileName: "[project]/Desktop/Web/onlynext-2.0/app/components/MobileNav.tsx",
-                        lineNumber: 237,
+                        lineNumber: 239,
                         columnNumber: 17
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Web$2f$onlynext$2d$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Web$2f$onlynext$2d$2$2e$0$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].span, {
@@ -364,7 +366,7 @@ const HamburgerButton = ({ active, setActive })=>{
                         }
                     }, void 0, false, {
                         fileName: "[project]/Desktop/Web/onlynext-2.0/app/components/MobileNav.tsx",
-                        lineNumber: 242,
+                        lineNumber: 244,
                         columnNumber: 17
                     }, ("TURBOPACK compile-time value", void 0)),
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Web$2f$onlynext$2d$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Web$2f$onlynext$2d$2$2e$0$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].span, {
@@ -376,13 +378,13 @@ const HamburgerButton = ({ active, setActive })=>{
                         }
                     }, void 0, false, {
                         fileName: "[project]/Desktop/Web/onlynext-2.0/app/components/MobileNav.tsx",
-                        lineNumber: 247,
+                        lineNumber: 249,
                         columnNumber: 17
                     }, ("TURBOPACK compile-time value", void 0))
                 ]
             }, void 0, true, {
                 fileName: "[project]/Desktop/Web/onlynext-2.0/app/components/MobileNav.tsx",
-                lineNumber: 230,
+                lineNumber: 232,
                 columnNumber: 13
             }, ("TURBOPACK compile-time value", void 0))
         ]
@@ -417,18 +419,18 @@ const FooterCTAs = ()=>{
                             className: "text-xl text-white transition-colors hover:text-violet-300"
                         }, void 0, false, {
                             fileName: "[project]/Desktop/Web/onlynext-2.0/app/components/MobileNav.tsx",
-                            lineNumber: 278,
+                            lineNumber: 280,
                             columnNumber: 29
                         }, ("TURBOPACK compile-time value", void 0))
                     }, idx, false, {
                         fileName: "[project]/Desktop/Web/onlynext-2.0/app/components/MobileNav.tsx",
-                        lineNumber: 263,
+                        lineNumber: 265,
                         columnNumber: 25
                     }, ("TURBOPACK compile-time value", void 0));
                 })
             }, void 0, false, {
                 fileName: "[project]/Desktop/Web/onlynext-2.0/app/components/MobileNav.tsx",
-                lineNumber: 260,
+                lineNumber: 262,
                 columnNumber: 13
             }, ("TURBOPACK compile-time value", void 0)),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Web$2f$onlynext$2d$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Web$2f$onlynext$2d$2$2e$0$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["motion"].button, {
@@ -456,19 +458,19 @@ const FooterCTAs = ()=>{
                         children: "contact us"
                     }, void 0, false, {
                         fileName: "[project]/Desktop/Web/onlynext-2.0/app/components/MobileNav.tsx",
-                        lineNumber: 298,
+                        lineNumber: 300,
                         columnNumber: 17
                     }, ("TURBOPACK compile-time value", void 0)),
                     " ",
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Web$2f$onlynext$2d$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Web$2f$onlynext$2d$2$2e$0$2f$node_modules$2f$react$2d$icons$2f$fi$2f$index$2e$mjs__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["FiArrowRight"], {}, void 0, false, {
                         fileName: "[project]/Desktop/Web/onlynext-2.0/app/components/MobileNav.tsx",
-                        lineNumber: 298,
+                        lineNumber: 300,
                         columnNumber: 69
                     }, ("TURBOPACK compile-time value", void 0))
                 ]
             }, void 0, true, {
                 fileName: "[project]/Desktop/Web/onlynext-2.0/app/components/MobileNav.tsx",
-                lineNumber: 284,
+                lineNumber: 286,
                 columnNumber: 13
             }, ("TURBOPACK compile-time value", void 0))
         ]
