@@ -53,8 +53,8 @@ const UNDERLAY_VARIANTS: Variants = {
         transition: { type: "spring", mass: 3, stiffness: 400, damping: 50 },
     },
     closed: {
-        width: "80px",
-        height: "80px",
+        width: "60px",
+        height: "60px",
         transition: {
             delay: 0.75,
             type: "spring",
@@ -110,7 +110,7 @@ export const MobNav = () => {
 
 const LinksOverlay = () => {
     return (
-        <nav className="fixed right-4 top-4 z-40 h-[calc(90vh_-_32px)] w-[calc(100%_-_32px)] overflow-hidden">
+        <nav className="fixed right-4 top-4 z-40 h-[calc(100vh_-_32px)] w-[calc(100%_-_32px)] overflow-hidden">
             <Logo />
             <LinksContainer />
             <FooterCTAs />
@@ -226,14 +226,14 @@ const HamburgerButton = ({
                 animate={active ? "open" : "closed"}
                 variants={UNDERLAY_VARIANTS}
                 style={{ top: 16, right: 16, border, boxShadow }}
-                className="fixed z-10 rounded-xl bg-white/10 shadow-lg backdrop-blur-sm font-ze-dots md:hidden lg:hidden"
+                className="fixed h-screen z-10 rounded-xl bg-white/10 shadow-lg backdrop-blur-sm font-ze-dots md:hidden lg:hidden"
             />
 
             <motion.button
                 initial={false}
                 animate={active ? "open" : "closed"}
                 onClick={() => setActive((pv) => !pv)}
-                className={`group fixed right-4 top-4 z-50 h-20 w-20 md:hidden lg:hidden bg-white/0 transition-all hover:bg-white/20 ${active ? "rounded-bl-xl rounded-tr-xl" : "rounded-xl"
+                className={`group fixed right-4 top-4 z-50 h-15 w-15 md:hidden lg:hidden bg-white/0 transition-all hover:bg-white/20 ${active ? "rounded-bl-xl rounded-tr-xl" : "rounded-xl"
                     }`}
             >
                 <motion.span

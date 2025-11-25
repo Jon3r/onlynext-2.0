@@ -71,8 +71,8 @@ const UNDERLAY_VARIANTS = {
         }
     },
     closed: {
-        width: "80px",
-        height: "80px",
+        width: "60px",
+        height: "60px",
         transition: {
             delay: 0.75,
             type: "spring",
@@ -185,7 +185,7 @@ _s(MobNav, "1cfVChV6gA1Fk8+xDnwTj3gmgZo=");
 _c = MobNav;
 const LinksOverlay = ()=>{
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Web$2f$onlynext$2d$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("nav", {
-        className: "fixed right-4 top-4 z-40 h-[calc(90vh_-_32px)] w-[calc(100%_-_32px)] overflow-hidden",
+        className: "fixed right-4 top-4 z-40 h-[calc(100vh_-_32px)] w-[calc(100%_-_32px)] overflow-hidden",
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Web$2f$onlynext$2d$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(Logo, {}, void 0, false, {
                 fileName: "[project]/Desktop/Web/onlynext-2.0/app/components/MobileNav.tsx",
@@ -343,7 +343,7 @@ const HamburgerButton = ({ active, setActive })=>{
                     border,
                     boxShadow
                 },
-                className: "fixed z-10 rounded-xl bg-white/10 shadow-lg backdrop-blur-sm font-ze-dots md:hidden lg:hidden"
+                className: "fixed h-screen z-10 rounded-xl bg-white/10 shadow-lg backdrop-blur-sm font-ze-dots md:hidden lg:hidden"
             }, void 0, false, {
                 fileName: "[project]/Desktop/Web/onlynext-2.0/app/components/MobileNav.tsx",
                 lineNumber: 224,
@@ -353,7 +353,7 @@ const HamburgerButton = ({ active, setActive })=>{
                 initial: false,
                 animate: active ? "open" : "closed",
                 onClick: ()=>setActive((pv)=>!pv),
-                className: `group fixed right-4 top-4 z-50 h-20 w-20 md:hidden lg:hidden bg-white/0 transition-all hover:bg-white/20 ${active ? "rounded-bl-xl rounded-tr-xl" : "rounded-xl"}`,
+                className: `group fixed right-4 top-4 z-50 h-15 w-15 md:hidden lg:hidden bg-white/0 transition-all hover:bg-white/20 ${active ? "rounded-bl-xl rounded-tr-xl" : "rounded-xl"}`,
                 children: [
                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Web$2f$onlynext$2d$2$2e$0$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$Desktop$2f$Web$2f$onlynext$2d$2$2e$0$2f$node_modules$2f$framer$2d$motion$2f$dist$2f$es$2f$render$2f$components$2f$motion$2f$proxy$2e$mjs__$5b$app$2d$client$5d$__$28$ecmascript$29$__["motion"].span, {
                         variants: HAMBURGER_VARIANTS.top,
