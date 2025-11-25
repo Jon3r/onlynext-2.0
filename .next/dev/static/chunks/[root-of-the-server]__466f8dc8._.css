@@ -651,6 +651,10 @@
     height: calc(var(--spacing) * 42);
   }
 
+  .h-\[calc\(90vh_-_32px\)\] {
+    height: calc(90vh - 32px);
+  }
+
   .h-\[calc\(100vh_-_32px\)\] {
     height: calc(100vh - 32px);
   }
