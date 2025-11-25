@@ -31,7 +31,7 @@ export default function About() {
     return (
 
         <motion.section
-            className="relative grid min-h-screen w-full place-content-center overflow-hidden px-4 py-24 text-gray-200"
+            className="relative grid min-h-screen w-full place-content-center overflow-hidden px-4 py-24 text-gray-200  top-0 z-10"
         >
             <motion.div>
                 <h1>About me</h1>

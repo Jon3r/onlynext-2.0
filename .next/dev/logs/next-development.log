@@ -1,5 +1,869 @@
-[00:00:02.899] Server  LOG      ✓ Ready in 2.7s
-[00:00:11.333] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+[00:00:00.957] Server  LOG      ✓ Ready in 699ms
+[00:00:08.213] Browser ERROR   uncaughtError: Error: Invalid argument not valid semver ('' received)
+[00:00:36.448] Server  LOG      ✓ Compiled in 145ms
+[00:00:43.189] Browser ERROR   uncaughtError: Error: Invalid argument not valid semver ('' received)
+[00:01:13.943] Server  LOG      ✓ Compiled in 47ms
+[00:01:28.618] Server  LOG      ✓ Compiled in 65ms
+[00:01:47.452] Server  LOG      ✓ Compiled in 37ms
+[00:01:53.114] Browser ERROR   uncaughtError: Error: Invalid argument not valid semver ('' received)
+[00:02:08.738] Server  LOG      ✓ Compiled in 57ms
+[00:02:52.510] Server  LOG      ✓ Compiled in 54ms
+[00:03:00.140] Browser ERROR   uncaughtError: Error: Invalid argument not valid semver ('' received)
+[00:03:59.253] Server  LOG      ✓ Compiled in 48ms
+[00:04:07.062] Browser ERROR   uncaughtError: Error: Invalid argument not valid semver ('' received)
+[00:04:43.978] Server  LOG      ✓ Compiled in 89ms
+[00:05:40.814] Server  LOG      ✓ Compiled in 52ms
+[00:05:47.373] Server  LOG      ✓ Compiled in 30ms
+[00:05:54.431] Browser ERROR   uncaughtError: Error: Invalid argument not valid semver ('' received)
+[00:06:07.891] Server  LOG      ✓ Compiled in 39ms
+[00:06:11.556] Server  LOG      ✓ Compiled in 19ms
+[00:06:18.530] Server  LOG      ✓ Compiled in 23ms
+[00:06:29.472] Server  LOG      ✓ Compiled in 33ms
+[00:25:15.833] Server  LOG      ✓ Compiled in 525ms
+[00:25:15.950] Browser ERROR   ./Desktop/Web/onlynext-2.0/app/components/Nav.tsx:9:1
+Export default doesn't exist in target module
+   7 |     animate,
+   8 | } from "motion/react"
+>  9 | import MobNav from "./MobileNav";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | const COLORS_TOP = ["#13FFAA", "#1E67C6", "#CE84CF", "#DD335C"];
+  12 |
+
+The export default was not found in module [project]/Desktop/Web/onlynext-2.0/app/components/MobileNav.tsx [app-client] (ecmascript).
+Did you mean to import MobNav?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Web/onlynext-2.0/app/components/Nav.tsx [Client Component Browser]
+    ./Desktop/Web/onlynext-2.0/app/components/Hero.tsx [Client Component Browser]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Client Component Browser]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Web/onlynext-2.0/app/components/Nav.tsx [Client Component SSR]
+    ./Desktop/Web/onlynext-2.0/app/components/Hero.tsx [Client Component SSR]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Client Component SSR]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Server Component]
+[00:25:15.950] Browser ERROR   ./Desktop/Web/onlynext-2.0/app/components/Nav.tsx:9:1
+Export default doesn't exist in target module
+   7 |     animate,
+   8 | } from "motion/react"
+>  9 | import MobNav from "./MobileNav";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | const COLORS_TOP = ["#13FFAA", "#1E67C6", "#CE84CF", "#DD335C"];
+  12 |
+
+The export default was not found in module [project]/Desktop/Web/onlynext-2.0/app/components/MobileNav.tsx [app-ssr] (ecmascript).
+Did you mean to import MobNav?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Web/onlynext-2.0/app/components/Nav.tsx [Client Component Browser]
+    ./Desktop/Web/onlynext-2.0/app/components/Hero.tsx [Client Component Browser]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Client Component Browser]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Web/onlynext-2.0/app/components/Nav.tsx [Client Component SSR]
+    ./Desktop/Web/onlynext-2.0/app/components/Hero.tsx [Client Component SSR]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Client Component SSR]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Server Component]
+[00:26:03.887] Server  LOG      ✓ Compiled in 95ms
+[00:26:03.990] Browser ERROR   ./Desktop/Web/onlynext-2.0/app/components/Nav.tsx:9:1
+Export default doesn't exist in target module
+   7 |     animate,
+   8 | } from "motion/react"
+>  9 | import MobNav from "./MobileNav";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | const COLORS_TOP = ["#13FFAA", "#1E67C6", "#CE84CF", "#DD335C"];
+  12 |
+
+The export default was not found in module [project]/Desktop/Web/onlynext-2.0/app/components/MobileNav.tsx [app-client] (ecmascript).
+Did you mean to import Nav?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Web/onlynext-2.0/app/components/Nav.tsx [Client Component Browser]
+    ./Desktop/Web/onlynext-2.0/app/components/Hero.tsx [Client Component Browser]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Client Component Browser]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Web/onlynext-2.0/app/components/Nav.tsx [Client Component SSR]
+    ./Desktop/Web/onlynext-2.0/app/components/Hero.tsx [Client Component SSR]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Client Component SSR]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Server Component]
+[00:26:03.990] Browser ERROR   ./Desktop/Web/onlynext-2.0/app/components/Nav.tsx:9:1
+Export default doesn't exist in target module
+   7 |     animate,
+   8 | } from "motion/react"
+>  9 | import MobNav from "./MobileNav";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | const COLORS_TOP = ["#13FFAA", "#1E67C6", "#CE84CF", "#DD335C"];
+  12 |
+
+The export default was not found in module [project]/Desktop/Web/onlynext-2.0/app/components/MobileNav.tsx [app-ssr] (ecmascript).
+Did you mean to import Nav?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Web/onlynext-2.0/app/components/Nav.tsx [Client Component Browser]
+    ./Desktop/Web/onlynext-2.0/app/components/Hero.tsx [Client Component Browser]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Client Component Browser]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Web/onlynext-2.0/app/components/Nav.tsx [Client Component SSR]
+    ./Desktop/Web/onlynext-2.0/app/components/Hero.tsx [Client Component SSR]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Client Component SSR]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Server Component]
+[00:27:34.339] Browser ERROR   ./Desktop/Web/onlynext-2.0/app/components/Nav.tsx:9:1
+Export default doesn't exist in target module
+   7 |     animate,
+   8 | } from "motion/react"
+>  9 | import MobNav from "./MobileNav";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | const COLORS_TOP = ["#13FFAA", "#1E67C6", "#CE84CF", "#DD335C"];
+  12 |
+
+The export default was not found in module [project]/Desktop/Web/onlynext-2.0/app/components/MobileNav.tsx [app-client] (ecmascript).
+Did you mean to import Nav?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Web/onlynext-2.0/app/components/Nav.tsx [Client Component Browser]
+    ./Desktop/Web/onlynext-2.0/app/components/Hero.tsx [Client Component Browser]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Client Component Browser]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Web/onlynext-2.0/app/components/Nav.tsx [Client Component SSR]
+    ./Desktop/Web/onlynext-2.0/app/components/Hero.tsx [Client Component SSR]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Client Component SSR]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Server Component]
+[00:27:34.339] Browser ERROR   ./Desktop/Web/onlynext-2.0/app/components/Nav.tsx:9:1
+Export default doesn't exist in target module
+   7 |     animate,
+   8 | } from "motion/react"
+>  9 | import MobNav from "./MobileNav";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | const COLORS_TOP = ["#13FFAA", "#1E67C6", "#CE84CF", "#DD335C"];
+  12 |
+
+The export default was not found in module [project]/Desktop/Web/onlynext-2.0/app/components/MobileNav.tsx [app-ssr] (ecmascript).
+Did you mean to import Nav?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Web/onlynext-2.0/app/components/Nav.tsx [Client Component Browser]
+    ./Desktop/Web/onlynext-2.0/app/components/Hero.tsx [Client Component Browser]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Client Component Browser]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Web/onlynext-2.0/app/components/Nav.tsx [Client Component SSR]
+    ./Desktop/Web/onlynext-2.0/app/components/Hero.tsx [Client Component SSR]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Client Component SSR]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Server Component]
+[00:27:37.311] Server  ERROR    ⨯ ./Desktop/Web/onlynext-2.0/app/components/Nav.tsx:9:1
+Export default doesn't exist in target module
+   7 |     animate,
+   8 | } from "motion/react"
+>  9 | import MobNav from "./MobileNav";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | const COLORS_TOP = ["#13FFAA", "#1E67C6", "#CE84CF", "#DD335C"];
+  12 |
+
+The export default was not found in module [project]/Desktop/Web/onlynext-2.0/app/components/MobileNav.tsx [app-client] (ecmascript).
+Did you mean to import Nav?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Web/onlynext-2.0/app/components/Nav.tsx [Client Component Browser]
+    ./Desktop/Web/onlynext-2.0/app/components/Hero.tsx [Client Component Browser]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Client Component Browser]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Web/onlynext-2.0/app/components/Nav.tsx [Client Component SSR]
+    ./Desktop/Web/onlynext-2.0/app/components/Hero.tsx [Client Component SSR]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Client Component SSR]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Server Component]
+
+
+
+./Desktop/Web/onlynext-2.0/app/components/Nav.tsx:9:1
+Export default doesn't exist in target module
+   7 |     animate,
+   8 | } from "motion/react"
+>  9 | import MobNav from "./MobileNav";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | const COLORS_TOP = ["#13FFAA", "#1E67C6", "#CE84CF", "#DD335C"];
+  12 |
+
+The export default was not found in module [project]/Desktop/Web/onlynext-2.0/app/components/MobileNav.tsx [app-ssr] (ecmascript).
+Did you mean to import Nav?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Web/onlynext-2.0/app/components/Nav.tsx [Client Component Browser]
+    ./Desktop/Web/onlynext-2.0/app/components/Hero.tsx [Client Component Browser]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Client Component Browser]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Web/onlynext-2.0/app/components/Nav.tsx [Client Component SSR]
+    ./Desktop/Web/onlynext-2.0/app/components/Hero.tsx [Client Component SSR]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Client Component SSR]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Server Component]
+
+
+[00:27:37.447] Browser ERROR   ./Desktop/Web/onlynext-2.0/app/components/Nav.tsx:9:1
+Export default doesn't exist in target module
+   7 |     animate,
+   8 | } from "motion/react"
+>  9 | import MobNav from "./MobileNav";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | const COLORS_TOP = ["#13FFAA", "#1E67C6", "#CE84CF", "#DD335C"];
+  12 |
+
+The export default was not found in module [project]/Desktop/Web/onlynext-2.0/app/components/MobileNav.tsx [app-client] (ecmascript).
+Did you mean to import Nav?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Web/onlynext-2.0/app/components/Nav.tsx [Client Component Browser]
+    ./Desktop/Web/onlynext-2.0/app/components/Hero.tsx [Client Component Browser]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Client Component Browser]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Web/onlynext-2.0/app/components/Nav.tsx [Client Component SSR]
+    ./Desktop/Web/onlynext-2.0/app/components/Hero.tsx [Client Component SSR]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Client Component SSR]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Server Component]
+[00:27:37.447] Browser ERROR   ./Desktop/Web/onlynext-2.0/app/components/Nav.tsx:9:1
+Export default doesn't exist in target module
+   7 |     animate,
+   8 | } from "motion/react"
+>  9 | import MobNav from "./MobileNav";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | const COLORS_TOP = ["#13FFAA", "#1E67C6", "#CE84CF", "#DD335C"];
+  12 |
+
+The export default was not found in module [project]/Desktop/Web/onlynext-2.0/app/components/MobileNav.tsx [app-ssr] (ecmascript).
+Did you mean to import Nav?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Web/onlynext-2.0/app/components/Nav.tsx [Client Component Browser]
+    ./Desktop/Web/onlynext-2.0/app/components/Hero.tsx [Client Component Browser]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Client Component Browser]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Web/onlynext-2.0/app/components/Nav.tsx [Client Component SSR]
+    ./Desktop/Web/onlynext-2.0/app/components/Hero.tsx [Client Component SSR]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Client Component SSR]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Server Component]
+[00:27:38.649] Browser ERROR   ./Desktop/Web/onlynext-2.0/app/components/Nav.tsx:9:1
+Export default doesn't exist in target module
+   7 |     animate,
+   8 | } from "motion/react"
+>  9 | import MobNav from "./MobileNav";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | const COLORS_TOP = ["#13FFAA", "#1E67C6", "#CE84CF", "#DD335C"];
+  12 |
+
+The export default was not found in module [project]/Desktop/Web/onlynext-2.0/app/components/MobileNav.tsx [app-client] (ecmascript).
+Did you mean to import Nav?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Web/onlynext-2.0/app/components/Nav.tsx [Client Component Browser]
+    ./Desktop/Web/onlynext-2.0/app/components/Hero.tsx [Client Component Browser]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Client Component Browser]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Web/onlynext-2.0/app/components/Nav.tsx [Client Component SSR]
+    ./Desktop/Web/onlynext-2.0/app/components/Hero.tsx [Client Component SSR]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Client Component SSR]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Server Component]
+[00:27:38.650] Browser ERROR   ./Desktop/Web/onlynext-2.0/app/components/Nav.tsx:9:1
+Export default doesn't exist in target module
+   7 |     animate,
+   8 | } from "motion/react"
+>  9 | import MobNav from "./MobileNav";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | const COLORS_TOP = ["#13FFAA", "#1E67C6", "#CE84CF", "#DD335C"];
+  12 |
+
+The export default was not found in module [project]/Desktop/Web/onlynext-2.0/app/components/MobileNav.tsx [app-ssr] (ecmascript).
+Did you mean to import Nav?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Web/onlynext-2.0/app/components/Nav.tsx [Client Component Browser]
+    ./Desktop/Web/onlynext-2.0/app/components/Hero.tsx [Client Component Browser]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Client Component Browser]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Web/onlynext-2.0/app/components/Nav.tsx [Client Component SSR]
+    ./Desktop/Web/onlynext-2.0/app/components/Hero.tsx [Client Component SSR]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Client Component SSR]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Server Component]
+[00:27:38.925] Browser ERROR   ./Desktop/Web/onlynext-2.0/app/components/Nav.tsx:9:1
+Export default doesn't exist in target module
+   7 |     animate,
+   8 | } from "motion/react"
+>  9 | import MobNav from "./MobileNav";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | const COLORS_TOP = ["#13FFAA", "#1E67C6", "#CE84CF", "#DD335C"];
+  12 |
+
+The export default was not found in module [project]/Desktop/Web/onlynext-2.0/app/components/MobileNav.tsx [app-client] (ecmascript).
+Did you mean to import Nav?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Web/onlynext-2.0/app/components/Nav.tsx [Client Component Browser]
+    ./Desktop/Web/onlynext-2.0/app/components/Hero.tsx [Client Component Browser]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Client Component Browser]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Web/onlynext-2.0/app/components/Nav.tsx [Client Component SSR]
+    ./Desktop/Web/onlynext-2.0/app/components/Hero.tsx [Client Component SSR]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Client Component SSR]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Server Component]
+[00:27:38.925] Browser ERROR   ./Desktop/Web/onlynext-2.0/app/components/Nav.tsx:9:1
+Export default doesn't exist in target module
+   7 |     animate,
+   8 | } from "motion/react"
+>  9 | import MobNav from "./MobileNav";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | const COLORS_TOP = ["#13FFAA", "#1E67C6", "#CE84CF", "#DD335C"];
+  12 |
+
+The export default was not found in module [project]/Desktop/Web/onlynext-2.0/app/components/MobileNav.tsx [app-ssr] (ecmascript).
+Did you mean to import Nav?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Web/onlynext-2.0/app/components/Nav.tsx [Client Component Browser]
+    ./Desktop/Web/onlynext-2.0/app/components/Hero.tsx [Client Component Browser]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Client Component Browser]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Web/onlynext-2.0/app/components/Nav.tsx [Client Component SSR]
+    ./Desktop/Web/onlynext-2.0/app/components/Hero.tsx [Client Component SSR]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Client Component SSR]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Server Component]
+[00:27:39.301] Browser ERROR   ./Desktop/Web/onlynext-2.0/app/components/Nav.tsx:9:1
+Export default doesn't exist in target module
+   7 |     animate,
+   8 | } from "motion/react"
+>  9 | import MobNav from "./MobileNav";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | const COLORS_TOP = ["#13FFAA", "#1E67C6", "#CE84CF", "#DD335C"];
+  12 |
+
+The export default was not found in module [project]/Desktop/Web/onlynext-2.0/app/components/MobileNav.tsx [app-client] (ecmascript).
+Did you mean to import Nav?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Web/onlynext-2.0/app/components/Nav.tsx [Client Component Browser]
+    ./Desktop/Web/onlynext-2.0/app/components/Hero.tsx [Client Component Browser]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Client Component Browser]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Web/onlynext-2.0/app/components/Nav.tsx [Client Component SSR]
+    ./Desktop/Web/onlynext-2.0/app/components/Hero.tsx [Client Component SSR]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Client Component SSR]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Server Component]
+[00:27:39.301] Browser ERROR   ./Desktop/Web/onlynext-2.0/app/components/Nav.tsx:9:1
+Export default doesn't exist in target module
+   7 |     animate,
+   8 | } from "motion/react"
+>  9 | import MobNav from "./MobileNav";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | const COLORS_TOP = ["#13FFAA", "#1E67C6", "#CE84CF", "#DD335C"];
+  12 |
+
+The export default was not found in module [project]/Desktop/Web/onlynext-2.0/app/components/MobileNav.tsx [app-ssr] (ecmascript).
+Did you mean to import Nav?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Web/onlynext-2.0/app/components/Nav.tsx [Client Component Browser]
+    ./Desktop/Web/onlynext-2.0/app/components/Hero.tsx [Client Component Browser]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Client Component Browser]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Web/onlynext-2.0/app/components/Nav.tsx [Client Component SSR]
+    ./Desktop/Web/onlynext-2.0/app/components/Hero.tsx [Client Component SSR]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Client Component SSR]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Server Component]
+[00:27:39.656] Browser ERROR   uncaughtError: Error: ./Desktop/Web/onlynext-2.0/app/components/Nav.tsx:9:1
+Export default doesn't exist in target module
+   7 |     animate,
+   8 | } from "motion/react"
+>  9 | import MobNav from "./MobileNav";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | const COLORS_TOP = ["#13FFAA", "#1E67C6", "#CE84CF", "#DD335C"];
+  12 |
+
+The export default was not found in module [project]/Desktop/Web/onlynext-2.0/app/components/MobileNav.tsx [app-client] (ecmascript).
+Did you mean to import Nav?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Web/onlynext-2.0/app/components/Nav.tsx [Client Component Browser]
+    ./Desktop/Web/onlynext-2.0/app/components/Hero.tsx [Client Component Browser]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Client Component Browser]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Web/onlynext-2.0/app/components/Nav.tsx [Client Component SSR]
+    ./Desktop/Web/onlynext-2.0/app/components/Hero.tsx [Client Component SSR]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Client Component SSR]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Server Component]
+
+
+[00:27:39.924] Browser ERROR   ./Desktop/Web/onlynext-2.0/app/components/Nav.tsx:9:1
+Export default doesn't exist in target module
+   7 |     animate,
+   8 | } from "motion/react"
+>  9 | import MobNav from "./MobileNav";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | const COLORS_TOP = ["#13FFAA", "#1E67C6", "#CE84CF", "#DD335C"];
+  12 |
+
+The export default was not found in module [project]/Desktop/Web/onlynext-2.0/app/components/MobileNav.tsx [app-client] (ecmascript).
+Did you mean to import Nav?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Web/onlynext-2.0/app/components/Nav.tsx [Client Component Browser]
+    ./Desktop/Web/onlynext-2.0/app/components/Hero.tsx [Client Component Browser]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Client Component Browser]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Web/onlynext-2.0/app/components/Nav.tsx [Client Component SSR]
+    ./Desktop/Web/onlynext-2.0/app/components/Hero.tsx [Client Component SSR]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Client Component SSR]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Server Component]
+[00:27:39.924] Browser ERROR   ./Desktop/Web/onlynext-2.0/app/components/Nav.tsx:9:1
+Export default doesn't exist in target module
+   7 |     animate,
+   8 | } from "motion/react"
+>  9 | import MobNav from "./MobileNav";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | const COLORS_TOP = ["#13FFAA", "#1E67C6", "#CE84CF", "#DD335C"];
+  12 |
+
+The export default was not found in module [project]/Desktop/Web/onlynext-2.0/app/components/MobileNav.tsx [app-ssr] (ecmascript).
+Did you mean to import Nav?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Web/onlynext-2.0/app/components/Nav.tsx [Client Component Browser]
+    ./Desktop/Web/onlynext-2.0/app/components/Hero.tsx [Client Component Browser]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Client Component Browser]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Web/onlynext-2.0/app/components/Nav.tsx [Client Component SSR]
+    ./Desktop/Web/onlynext-2.0/app/components/Hero.tsx [Client Component SSR]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Client Component SSR]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Server Component]
+[00:27:40.334] Browser ERROR   ./Desktop/Web/onlynext-2.0/app/components/Nav.tsx:9:1
+Export default doesn't exist in target module
+   7 |     animate,
+   8 | } from "motion/react"
+>  9 | import MobNav from "./MobileNav";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | const COLORS_TOP = ["#13FFAA", "#1E67C6", "#CE84CF", "#DD335C"];
+  12 |
+
+The export default was not found in module [project]/Desktop/Web/onlynext-2.0/app/components/MobileNav.tsx [app-client] (ecmascript).
+Did you mean to import Nav?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Web/onlynext-2.0/app/components/Nav.tsx [Client Component Browser]
+    ./Desktop/Web/onlynext-2.0/app/components/Hero.tsx [Client Component Browser]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Client Component Browser]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Web/onlynext-2.0/app/components/Nav.tsx [Client Component SSR]
+    ./Desktop/Web/onlynext-2.0/app/components/Hero.tsx [Client Component SSR]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Client Component SSR]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Server Component]
+[00:27:40.334] Browser ERROR   ./Desktop/Web/onlynext-2.0/app/components/Nav.tsx:9:1
+Export default doesn't exist in target module
+   7 |     animate,
+   8 | } from "motion/react"
+>  9 | import MobNav from "./MobileNav";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | const COLORS_TOP = ["#13FFAA", "#1E67C6", "#CE84CF", "#DD335C"];
+  12 |
+
+The export default was not found in module [project]/Desktop/Web/onlynext-2.0/app/components/MobileNav.tsx [app-ssr] (ecmascript).
+Did you mean to import Nav?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Web/onlynext-2.0/app/components/Nav.tsx [Client Component Browser]
+    ./Desktop/Web/onlynext-2.0/app/components/Hero.tsx [Client Component Browser]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Client Component Browser]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Web/onlynext-2.0/app/components/Nav.tsx [Client Component SSR]
+    ./Desktop/Web/onlynext-2.0/app/components/Hero.tsx [Client Component SSR]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Client Component SSR]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Server Component]
+[00:27:54.470] Browser ERROR   ./Desktop/Web/onlynext-2.0/app/components/Nav.tsx:9:1
+Export default doesn't exist in target module
+   7 |     animate,
+   8 | } from "motion/react"
+>  9 | import MobNav from "./MobileNav";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | const COLORS_TOP = ["#13FFAA", "#1E67C6", "#CE84CF", "#DD335C"];
+  12 |
+
+The export default was not found in module [project]/Desktop/Web/onlynext-2.0/app/components/MobileNav.tsx [app-client] (ecmascript).
+Did you mean to import MobNav?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Web/onlynext-2.0/app/components/Nav.tsx [Client Component Browser]
+    ./Desktop/Web/onlynext-2.0/app/components/Hero.tsx [Client Component Browser]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Client Component Browser]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Web/onlynext-2.0/app/components/Nav.tsx [Client Component SSR]
+    ./Desktop/Web/onlynext-2.0/app/components/Hero.tsx [Client Component SSR]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Client Component SSR]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Server Component]
+[00:27:54.470] Browser ERROR   ./Desktop/Web/onlynext-2.0/app/components/Nav.tsx:9:1
+Export default doesn't exist in target module
+   7 |     animate,
+   8 | } from "motion/react"
+>  9 | import MobNav from "./MobileNav";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | const COLORS_TOP = ["#13FFAA", "#1E67C6", "#CE84CF", "#DD335C"];
+  12 |
+
+The export default was not found in module [project]/Desktop/Web/onlynext-2.0/app/components/MobileNav.tsx [app-ssr] (ecmascript).
+Did you mean to import MobNav?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Web/onlynext-2.0/app/components/Nav.tsx [Client Component Browser]
+    ./Desktop/Web/onlynext-2.0/app/components/Hero.tsx [Client Component Browser]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Client Component Browser]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Web/onlynext-2.0/app/components/Nav.tsx [Client Component SSR]
+    ./Desktop/Web/onlynext-2.0/app/components/Hero.tsx [Client Component SSR]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Client Component SSR]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Server Component]
+[00:27:57.310] Server  ERROR    ⨯ ./Desktop/Web/onlynext-2.0/app/components/Nav.tsx:9:1
+Export default doesn't exist in target module
+   7 |     animate,
+   8 | } from "motion/react"
+>  9 | import MobNav from "./MobileNav";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | const COLORS_TOP = ["#13FFAA", "#1E67C6", "#CE84CF", "#DD335C"];
+  12 |
+
+The export default was not found in module [project]/Desktop/Web/onlynext-2.0/app/components/MobileNav.tsx [app-client] (ecmascript).
+Did you mean to import MobNav?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Web/onlynext-2.0/app/components/Nav.tsx [Client Component Browser]
+    ./Desktop/Web/onlynext-2.0/app/components/Hero.tsx [Client Component Browser]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Client Component Browser]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Web/onlynext-2.0/app/components/Nav.tsx [Client Component SSR]
+    ./Desktop/Web/onlynext-2.0/app/components/Hero.tsx [Client Component SSR]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Client Component SSR]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Server Component]
+
+
+
+./Desktop/Web/onlynext-2.0/app/components/Nav.tsx:9:1
+Export default doesn't exist in target module
+   7 |     animate,
+   8 | } from "motion/react"
+>  9 | import MobNav from "./MobileNav";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | const COLORS_TOP = ["#13FFAA", "#1E67C6", "#CE84CF", "#DD335C"];
+  12 |
+
+The export default was not found in module [project]/Desktop/Web/onlynext-2.0/app/components/MobileNav.tsx [app-ssr] (ecmascript).
+Did you mean to import MobNav?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Web/onlynext-2.0/app/components/Nav.tsx [Client Component Browser]
+    ./Desktop/Web/onlynext-2.0/app/components/Hero.tsx [Client Component Browser]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Client Component Browser]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Web/onlynext-2.0/app/components/Nav.tsx [Client Component SSR]
+    ./Desktop/Web/onlynext-2.0/app/components/Hero.tsx [Client Component SSR]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Client Component SSR]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Server Component]
+
+
+[00:27:57.548] Browser ERROR   uncaughtError: Error: ./Desktop/Web/onlynext-2.0/app/components/Nav.tsx:9:1
+Export default doesn't exist in target module
+   7 |     animate,
+   8 | } from "motion/react"
+>  9 | import MobNav from "./MobileNav";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | const COLORS_TOP = ["#13FFAA", "#1E67C6", "#CE84CF", "#DD335C"];
+  12 |
+
+The export default was not found in module [project]/Desktop/Web/onlynext-2.0/app/components/MobileNav.tsx [app-client] (ecmascript).
+Did you mean to import MobNav?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Web/onlynext-2.0/app/components/Nav.tsx [Client Component Browser]
+    ./Desktop/Web/onlynext-2.0/app/components/Hero.tsx [Client Component Browser]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Client Component Browser]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Web/onlynext-2.0/app/components/Nav.tsx [Client Component SSR]
+    ./Desktop/Web/onlynext-2.0/app/components/Hero.tsx [Client Component SSR]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Client Component SSR]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Server Component]
+
+
+[00:27:57.866] Browser ERROR   ./Desktop/Web/onlynext-2.0/app/components/Nav.tsx:9:1
+Export default doesn't exist in target module
+   7 |     animate,
+   8 | } from "motion/react"
+>  9 | import MobNav from "./MobileNav";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | const COLORS_TOP = ["#13FFAA", "#1E67C6", "#CE84CF", "#DD335C"];
+  12 |
+
+The export default was not found in module [project]/Desktop/Web/onlynext-2.0/app/components/MobileNav.tsx [app-client] (ecmascript).
+Did you mean to import MobNav?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Web/onlynext-2.0/app/components/Nav.tsx [Client Component Browser]
+    ./Desktop/Web/onlynext-2.0/app/components/Hero.tsx [Client Component Browser]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Client Component Browser]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Web/onlynext-2.0/app/components/Nav.tsx [Client Component SSR]
+    ./Desktop/Web/onlynext-2.0/app/components/Hero.tsx [Client Component SSR]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Client Component SSR]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Server Component]
+[00:27:57.866] Browser ERROR   ./Desktop/Web/onlynext-2.0/app/components/Nav.tsx:9:1
+Export default doesn't exist in target module
+   7 |     animate,
+   8 | } from "motion/react"
+>  9 | import MobNav from "./MobileNav";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | const COLORS_TOP = ["#13FFAA", "#1E67C6", "#CE84CF", "#DD335C"];
+  12 |
+
+The export default was not found in module [project]/Desktop/Web/onlynext-2.0/app/components/MobileNav.tsx [app-ssr] (ecmascript).
+Did you mean to import MobNav?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Web/onlynext-2.0/app/components/Nav.tsx [Client Component Browser]
+    ./Desktop/Web/onlynext-2.0/app/components/Hero.tsx [Client Component Browser]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Client Component Browser]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Web/onlynext-2.0/app/components/Nav.tsx [Client Component SSR]
+    ./Desktop/Web/onlynext-2.0/app/components/Hero.tsx [Client Component SSR]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Client Component SSR]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Server Component]
+[00:27:57.866] Browser ERROR   ./Desktop/Web/onlynext-2.0/app/components/Nav.tsx:9:1
+Export default doesn't exist in target module
+   7 |     animate,
+   8 | } from "motion/react"
+>  9 | import MobNav from "./MobileNav";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | const COLORS_TOP = ["#13FFAA", "#1E67C6", "#CE84CF", "#DD335C"];
+  12 |
+
+The export default was not found in module [project]/Desktop/Web/onlynext-2.0/app/components/MobileNav.tsx [app-client] (ecmascript).
+Did you mean to import MobNav?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Web/onlynext-2.0/app/components/Nav.tsx [Client Component Browser]
+    ./Desktop/Web/onlynext-2.0/app/components/Hero.tsx [Client Component Browser]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Client Component Browser]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Web/onlynext-2.0/app/components/Nav.tsx [Client Component SSR]
+    ./Desktop/Web/onlynext-2.0/app/components/Hero.tsx [Client Component SSR]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Client Component SSR]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Server Component]
+[00:27:57.866] Browser ERROR   ./Desktop/Web/onlynext-2.0/app/components/Nav.tsx:9:1
+Export default doesn't exist in target module
+   7 |     animate,
+   8 | } from "motion/react"
+>  9 | import MobNav from "./MobileNav";
+     | ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 |
+  11 | const COLORS_TOP = ["#13FFAA", "#1E67C6", "#CE84CF", "#DD335C"];
+  12 |
+
+The export default was not found in module [project]/Desktop/Web/onlynext-2.0/app/components/MobileNav.tsx [app-ssr] (ecmascript).
+Did you mean to import MobNav?
+All exports of the module are statically known (It doesn't have dynamic exports). So it's known statically that the requested export doesn't exist.
+
+Import traces:
+  Client Component Browser:
+    ./Desktop/Web/onlynext-2.0/app/components/Nav.tsx [Client Component Browser]
+    ./Desktop/Web/onlynext-2.0/app/components/Hero.tsx [Client Component Browser]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Client Component Browser]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Server Component]
+
+  Client Component SSR:
+    ./Desktop/Web/onlynext-2.0/app/components/Nav.tsx [Client Component SSR]
+    ./Desktop/Web/onlynext-2.0/app/components/Hero.tsx [Client Component SSR]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Client Component SSR]
+    ./Desktop/Web/onlynext-2.0/app/page.tsx [Server Component]
+[00:28:20.140] Server  LOG      ✓ Compiled in 86ms
+[00:28:21.389] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="/Desktop/W...">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html
++                         lang="en"
+-                         lang="en-gb"
+-                         className={" lang-en"}
+-                         data-hubspot-theme="canvas-light"
+                        >
+                          <body
++                           className="zen_dots_68e9b562-module__Tx50mG__variable roboto_7197f6d-module__A0KAba__varia..."
+-                           className="zen_dots_68e9b562-module__Tx50mG__variable roboto_7197f6d-module__A0KAba__varia..."
+                          >
+                  ...
+
+[00:28:22.077] Browser ERROR   uncaughtError: Error: Invalid argument not valid semver ('' received)
+[00:32:09.650] Server  LOG      ✓ Compiled in 42ms
+[00:55:57.738] Server  LOG      ✓ Compiled in 252ms
+[00:58:24.328] Server  LOG      ✓ Compiled in 69ms
+[00:58:30.273] Browser ERROR   uncaughtError: Error: Invalid argument not valid semver ('' received)
+[01:00:05.941] Server  LOG      ✓ Compiled in 43ms
+[01:53:17.815] Server  LOG      ✓ Compiled in 227ms
+[01:53:23.961] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
 
 - A server/client branch `if (typeof window !== 'undefined')`.
 - Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
@@ -34,5 +898,19 @@ It can also happen if the client has a browser extension installed which messes 
                         >
                   ...
 
-[00:02:50.685] Server  LOG      ✓ Compiled in 108ms
-[00:03:16.420] Server  LOG      ✓ Compiled in 99ms
+[01:53:23.961] Browser ERROR   uncaughtError: Error: Invalid argument not valid semver ('' received)
+[01:54:11.206] Server  LOG      ✓ Compiled in 45ms
+[01:54:40.776] Server  LOG      ✓ Compiled in 57ms
+[01:54:48.769] Server  LOG      ✓ Compiled in 23ms
+[01:55:35.328] Server  LOG      ✓ Compiled in 65ms
+[01:55:41.531] Server  LOG      ✓ Compiled in 42ms
+[01:56:12.465] Server  LOG      ✓ Compiled in 79ms
+[01:57:30.398] Server  LOG      ✓ Compiled in 502ms
+[02:00:47.067] Server  LOG      ✓ Compiled in 133ms
+[02:01:25.009] Server  LOG      ✓ Compiled in 98ms
+[02:02:06.301] Browser ERROR   uncaughtError: Error: Invalid argument not valid semver ('' received)
+[02:12:04.387] Server  LOG      ✓ Compiled in 45ms
+[02:16:57.011] Server  LOG      ✓ Compiled in 142ms
+[02:17:05.686] Server  LOG      ✓ Compiled in 43ms
+[02:18:08.707] Server  LOG      ✓ Compiled in 29ms
+[02:18:13.263] Browser ERROR   uncaughtError: Error: Invalid argument not valid semver ('' received)

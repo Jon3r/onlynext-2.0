@@ -29,12 +29,12 @@ export const AuroraHero = () => {
 
     return (
         <motion.section
-            className="relative grid min-h-screen w-full place-content-center overflow-hidden px-4 py-24 text-gray-200"
+            className="relative grid min-h-screen w-full place-content-center overflow-hidden px-4 py-24 text-gray-200 snap-y snap-mandatory overflow-y-scroll scroll-padding-top"
         >
             <div className="relative z-10 flex flex-col items-center">
                 <Nav />
                 <h1 className="max-w-3xl bg-gradient-to-br from-white to-gray-400 bg-clip-text text-center text-3xl font-ze-dots font-medium leading-tight text-transparent sm:text-5xl sm:leading-tight md:text-7xl md:leading-tight">
-                    Welcome to <br /> {"</>"}nly Jonesy
+                    Welcome to <br /> Only Jonesy
                 </h1>
                 <p className="my-6 max-w-xl text-center text-base leading-relaxed md:text-lg md:leading-relaxed">
                     A Web Developer<br />
@@ -51,10 +51,10 @@ export const AuroraHero = () => {
                     whileTap={{
                         scale: 0.985,
                     }}
-                    className="group relative flex w-fit items-center gap-1.5 rounded-full bg-gray-950/10 px-4 py-2 text-gray-50 transition-colors hover:bg-gray-950/50"
+                    className="font-ze-dots group relative flex w-fit items-center gap-1.5 rounded-full bg-gray-950/10 px-4 py-2 text-gray-50 transition-colors hover:bg-gray-950/50"
                 >
                     Get to know me
-                    <FiArrowRight className="transition-transform group-hover:-rotate-270 group-hover:ease-in-out group-hover:duration-200 group-active:-rotate-12" />
+                    <FiArrowRight className="transition-transform group-hover:-rotate-270 group-hover:ease-in-out group-hover:duration-200 group-active:-rotate-12 group-click:-rotate-270" />
                 </motion.button>
             </div >
         </motion.section >
