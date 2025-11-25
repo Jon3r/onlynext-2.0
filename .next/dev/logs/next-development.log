@@ -619,3 +619,55 @@ It can also happen if the client has a browser extension installed which messes 
 
 [00:21:52.672] Server  LOG      ✓ Compiled in 38ms
 [00:22:06.610] Server  LOG      ✓ Compiled in 15ms
+[16:07:18.660] Server  LOG      ✓ Compiled in 321ms
+[16:11:51.224] Server  LOG      ✓ Compiled in 31ms
+[16:12:35.765] Server  LOG      ✓ Compiled in 89ms
+[16:12:35.858] Browser ERROR   uncaughtError: ReferenceError: textColor is not defined
+[16:12:36.391] Browser LOG     THREE.WebGLRenderer: Context Lost.
+[16:12:48.095] Server  WARN     ⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[16:12:48.130] Server  LOG      ✓ Compiled in 18ms
+[16:12:55.869] Browser ERROR   uncaughtError: Error: Invalid argument not valid semver ('' received)
+[16:13:36.600] Server  LOG      ✓ Compiled in 112ms
+[16:13:58.163] Server  LOG      ✓ Compiled in 69ms
+[16:14:04.843] Browser ERROR   A tree hydrated but some attributes of the server rendered HTML didn't match the client properties. This won't be patched up. This can happen if a SSR-ed Client Component used:
+
+- A server/client branch `if (typeof window !== 'undefined')`.
+- Variable input such as `Date.now()` or `Math.random()` which changes each time it's called.
+- Date formatting in a user's locale which doesn't match the server.
+- External changing data without sending a snapshot of it along with the HTML.
+- Invalid HTML tag nesting.
+
+It can also happen if the client has a browser extension installed which messes with the HTML before React loaded.
+
+%s%s https://react.dev/link/hydration-mismatch 
+
+  ...
+    <HotReload globalError={[...]} webSocket={WebSocket} staticIndicatorState={{pathname:null, ...}}>
+      <AppDevOverlayErrorBoundary globalError={[...]}>
+        <ReplaySsrOnlyErrors>
+        <DevRootHTTPAccessFallbackBoundary>
+          <HTTPAccessFallbackBoundary notFound={<NotAllowedRootHTTPFallbackError>}>
+            <HTTPAccessFallbackErrorBoundary pathname="/" notFound={<NotAllowedRootHTTPFallbackError>} ...>
+              <RedirectBoundary>
+                <RedirectErrorBoundary router={{...}}>
+                  <Head>
+                  <__next_root_layout_boundary__>
+                    <SegmentViewNode type="layout" pagePath="/Desktop/W...">
+                      <SegmentTrieNode>
+                      <link>
+                      <script>
+                      <RootLayout>
+                        <html
++                         lang="en"
+-                         lang="en-gb"
+-                         className={" lang-en"}
+                        >
+                  ...
+
+[16:14:04.985] Browser ERROR   uncaughtError: Error: Invalid argument not valid semver ('' received)
+[16:19:12.159] Server  LOG      ✓ Compiled in 66ms
+[16:23:31.315] Server  LOG      ✓ Compiled in 31ms
+[16:23:57.760] Server  LOG      ✓ Compiled in 86ms
+[16:24:14.951] Server  LOG      ✓ Compiled in 22ms
+[16:24:26.962] Server  LOG      ✓ Compiled in 46ms
+[16:24:43.552] Server  LOG      ✓ Compiled in 46ms

@@ -11,11 +11,31 @@ import {
     useInView,
     useAnimation
 } from "framer-motion";
+import { FiArrowRight } from "react-icons/fi";
+
+const COLORS_TOP = ["#13FFAA", "#1E67C6", "#CE84CF", "#DD335C"];
 
 
 export const About = () => {
+
+    const color = useMotionValue(COLORS_TOP[0]);
+
+    useEffect(() => {
+        animate(color, COLORS_TOP, {
+            ease: "easeInOut",
+            duration: 10,
+            repeat: Infinity,
+            repeatType: "mirror",
+        });
+    }, []);
+
+    const border = useMotionTemplate`1px solid ${color}`;
+    const boxShadow = useMotionTemplate`0px 4px 24px ${color}`;
+    const textColor = useMotionTemplate`${color}`;
+
+
     return (
-        <section className="text-slat-100 overflow-hidden bg-white/10 shadow-lg backdrop-blur-sm px-8 py-24 md:px-12 md:py-32">
+        <section className="w-full md:w-3/4 mx-auto text-slat-100 overflow-hidden bg-white/10 shadow-lg backdrop-blur-sm px-8 py-24 md:px-12 md:py-32">
             <div className="relative mx-auto max-w-5xl">
                 <div className="pointer-events-none relative z-10">
                     <Reveal>
@@ -26,9 +46,9 @@ export const About = () => {
                     <Reveal>
                         <h2 className="pointer-events-auto my-2 text-2xl text-white md:my-4 md:text-4xl">
                             I'm a{" "}
-                            <span className="font-semibold text-indigo-500">
+                            <motion.span style={{ color: textColor }} className="font-semibold">
                                 Web Developer
-                            </span>
+                            </motion.span>
                         </h2>
                     </Reveal>
                     <Reveal>
@@ -39,9 +59,21 @@ export const About = () => {
                         </p>
                     </Reveal>
                     <Reveal>
-                        <button className="pointer-events-auto mt-4 rounded bg-indigo-600 px-4 py-2 font-medium text-slate-100 transition-all hover:bg-indigo-700 active:scale-95 md:mt-6">
-                            Contact me
-                        </button>
+                        <motion.button
+                            style={{
+                                border,
+                            }}
+                            whileHover={{
+                                scale: 1.015,
+                            }}
+                            whileTap={{
+                                scale: 0.985,
+                            }}
+                            className="cursor-pointer font-ze-dots group relative flex w-fit items-center gap-1.5 rounded-full bg-gray-950/10 px-4 py-2 text-gray-50 transition-colors hover:bg-gray-950/50"
+                        >
+                            Get to know me
+                            <FiArrowRight className="transition-transform group-hover:-rotate-270 group-hover:ease-in-out group-hover:duration-200 group-active:-rotate-12 group-click:-rotate-270" />
+                        </motion.button>
                     </Reveal>
                 </div>
             </div>

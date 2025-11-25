@@ -680,6 +680,10 @@
     min-height: 100vh;
   }
 
+  .w-3\/4 {
+    width: 75%;
+  }
+
   .w-5 {
     width: calc(var(--spacing) * 5);
   }
@@ -1184,6 +1188,12 @@
   }
 
   @media (min-width: 40rem) {
+    .sm\:w-full {
+      width: 100%;
+    }
+  }
+
+  @media (min-width: 40rem) {
     .sm\:text-5xl {
       font-size: var(--text-5xl);
       line-height: var(--tw-leading, var(--text-5xl--line-height));
@@ -1236,6 +1246,12 @@
   @media (min-width: 48rem) {
     .md\:hidden {
       display: none;
+    }
+  }
+
+  @media (min-width: 48rem) {
+    .md\:w-3\/4 {
+      width: 75%;
     }
   }
 
