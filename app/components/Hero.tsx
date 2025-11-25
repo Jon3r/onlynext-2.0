@@ -1,6 +1,7 @@
 'use client'
 import Nav from "./Nav";
 import React, { useEffect } from "react";
+import Link from "next/link";
 import { FiArrowRight } from "react-icons/fi";
 import {
     useMotionTemplate,
@@ -40,22 +41,24 @@ export const AuroraHero = () => {
                     A Web Developer<br />
                     Based in Sydney, Australia
                 </p>
-                <motion.button
-                    style={{
-                        border,
-                        boxShadow,
-                    }}
-                    whileHover={{
-                        scale: 1.015,
-                    }}
-                    whileTap={{
-                        scale: 0.985,
-                    }}
-                    className="font-ze-dots group relative flex w-fit items-center gap-1.5 rounded-full bg-gray-950/10 px-4 py-2 text-gray-50 transition-colors hover:bg-gray-950/50"
-                >
-                    Get to know me
-                    <FiArrowRight className="transition-transform group-hover:-rotate-270 group-hover:ease-in-out group-hover:duration-200 group-active:-rotate-12 group-click:-rotate-270" />
-                </motion.button>
+                <Link href="#about">
+                    <motion.button
+                        style={{
+                            border,
+                            boxShadow,
+                        }}
+                        whileHover={{
+                            scale: 1.015,
+                        }}
+                        whileTap={{
+                            scale: 0.985,
+                        }}
+                        className="cursor-pointer font-ze-dots group relative flex w-fit items-center gap-1.5 rounded-full bg-gray-950/10 px-4 py-2 text-gray-50 transition-colors hover:bg-gray-950/50"
+                    >
+                        Get to know me
+                        <FiArrowRight className="transition-transform group-hover:-rotate-270 group-hover:ease-in-out group-hover:duration-200 group-active:-rotate-12 group-click:-rotate-270" />
+                    </motion.button>
+                </Link>
             </div >
         </motion.section >
     );

@@ -1,7 +1,7 @@
 'use client'
 import Image from "next/image";
 import { AuroraHero } from "./components/Hero";
-import About from "./components/About";
+import { About } from "./components/About";
 import { Stars } from "@react-three/drei";
 import { Canvas } from "@react-three/fiber";
 import React, { useEffect } from "react";
