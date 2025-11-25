@@ -330,7 +330,7 @@ const HamburgerButton = ({ active, setActive })=>{
                     border,
                     boxShadow
                 },
-                className: "fixed h-screen z-10 rounded-xl bg-white/10 shadow-lg backdrop-blur-sm font-ze-dots md:hidden lg:hidden"
+                className: "fixed h-[calc(80vh_-_32px)] z-10 rounded-xl bg-white/10 shadow-lg backdrop-blur-sm font-ze-dots md:hidden lg:hidden"
             }, void 0, false, {
                 fileName: "[project]/Desktop/Web/onlynext-2.0/app/components/MobileNav.tsx",
                 lineNumber: 224,

@@ -226,7 +226,7 @@ const HamburgerButton = ({
                 animate={active ? "open" : "closed"}
                 variants={UNDERLAY_VARIANTS}
                 style={{ top: 16, right: 16, border, boxShadow }}
-                className="fixed h-screen z-10 rounded-xl bg-white/10 shadow-lg backdrop-blur-sm font-ze-dots md:hidden lg:hidden"
+                className="fixed h-[calc(80vh_-_32px)] z-10 rounded-xl bg-white/10 shadow-lg backdrop-blur-sm font-ze-dots md:hidden lg:hidden"
             />
 
             <motion.button
