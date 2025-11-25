@@ -1514,3 +1514,5 @@ It can also happen if the client has a browser extension installed which messes 
                   ...
 
 [03:27:21.190] Browser ERROR   uncaughtError: Error: Invalid argument not valid semver ('' received)
+[04:15:02.807] Server  LOG      ✓ Compiled in 147ms
+[04:15:23.312] Server  LOG      ✓ Compiled in 51ms
