@@ -6,7 +6,8 @@ import {
     useMotionValue,
     motion,
     animate,
-    AnimatePresence
+    AnimatePresence,
+    Variants,
 } from "framer-motion";
 
 const COLORS_TOP = ["#13FFAA", "#1E67C6", "#CE84CF", "#DD335C"];
@@ -45,7 +46,7 @@ const SOCIAL_CTAS = [
     },
 ];
 
-const UNDERLAY_VARIANTS = {
+const UNDERLAY_VARIANTS: Variants = {
     open: {
         width: "calc(100% - 32px)",
         height: "calc(100vh - 32px)",
@@ -64,7 +65,7 @@ const UNDERLAY_VARIANTS = {
     },
 };
 
-const HAMBURGER_VARIANTS = {
+const HAMBURGER_VARIANTS: Record<string, Variants> = {
     top: {
         open: {
             rotate: ["0deg", "0deg", "45deg"],
